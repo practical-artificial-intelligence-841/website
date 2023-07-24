@@ -1,0 +1,9 @@
+title = 'COMP-841 - Practical Aritificial Intelligence'
+theme = "relearn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  themeVariant = [ "relearn-dark", "relearn-light" ]
