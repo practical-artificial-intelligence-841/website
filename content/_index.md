@@ -1,5 +1,5 @@
 ---
-title: "COMP 741/841 - Practical Artificial Intelligence"
+title: "COMP 741/841 Practical Artificial Intelligence"
 ---
 
 **[MyCourses/ Canvas](https://mycourses.unh.edu/)**
