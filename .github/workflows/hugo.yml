@@ -33,34 +33,55 @@ jobs:
     env:
       HUGO_VERSION: 0.114.0
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build with Hugo
-        env:
-          # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./public
+
+    - id: install-hugo
+      name: Install Hugo CLI
+      run: |
+        wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+        && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+    - id: checkout-code
+      name: Checkout
+      uses: actions/checkout@v3
+      with:
+        submodules: recursive
+
+    - id: marp-build
+      name: Render Slides with Marp
+      if: ${{ true }}
+      uses: docker://marpteam/marp-cli:v2.2.2
+      with:
+        args: --allow-local-files -I ./content/slides/ -o ./static/slides --pdf
+      env:
+        MARP_USER: root:root
+
+    - id: chown-slides
+      name: Change Ownership of Generated Slides
+      if: ${{ false }}
+      run: |
+        sudo chown -R 1001:121 ./static/slides
+        ls -alR ./static/slides
+
+    - id: configure-pages
+      name: Setup Pages
+      uses: actions/configure-pages@v2
+
+    - id: hugo-build
+      name: Build with Hugo
+      env:
+        # For maximum backward compatibility with Hugo modules
+        HUGO_ENVIRONMENT: production
+        HUGO_ENV: production
+      run: |
+        hugo \
+          --minify \
+          --baseURL "${{ steps.configure-pages.outputs.base_url }}/"
+
+    - id: upload-artifact
+      name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: ./public
 
   # Deployment job
   deploy:
