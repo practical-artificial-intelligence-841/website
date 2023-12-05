@@ -1,6 +1,6 @@
 ---
 title: Git Feature Branch Workflow
-weight: 4
+weight: 6
 ---
 
 ## References
