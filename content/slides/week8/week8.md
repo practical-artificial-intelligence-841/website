@@ -129,6 +129,8 @@ https://garymarcus.substack.com/p/race-statistics-and-the-persistent ? ​
 - Or will these data points be considered **statistical noise**? ​
 ![img](time.png)
 
+## Is DALL-E Biased? 
+
 Statistical noise definition: ​
 
 - unexplained variability within a data sample​
