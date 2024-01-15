@@ -1,18 +1,17 @@
-- **Semester**: Spring 2024
-- **Credits**: 
+- Semester: Spring 2024
+- Credits: 
     - 3 credits, COMP 841
     - 4 credits, COMP 741
-- **Prerequisites**: COMP 525 Data Structures Fundamentals or equivalent,
-COMP 741
-- **Department**: Applied Engineering and Sciences Department
+- Prerequisites: COMP 525 Data Structures Fundamentals or equivalent, COMP 741
+- Department: Applied Engineering and Sciences Department
 
 
 ## INSTRUCTOR INFORMATION
 
-- **Mihaela Sabin**, Ph.D., Professor of Computer Science
-    - **Email**: <mihaela.sabin@unh.edu>
-    - **Office**: P121
-    - **Availability**: Tuesday, 3 -- 4 pm, P121, or by appointment
+- Mihaela Sabin, Ph.D., Professor of Computer Science
+    - Email: <mihaela.sabin@unh.edu>
+    - Office: P121
+    - Availability: Tuesday, 3 -- 4 pm, P121, or by appointment
 
 ### How to get in touch with the instructor 
 - Email the instructor using **Canvas Inbox tool** 
