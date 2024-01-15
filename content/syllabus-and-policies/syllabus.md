@@ -1,3 +1,4 @@
+## BASIC COURSE INFORMATION
 - Semester: Spring 2024
 - Credits: 
     - 3 credits, COMP 841
