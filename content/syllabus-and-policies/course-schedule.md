@@ -1,6 +1,6 @@
 ---
 title: Course Schedule
-weight: 3
+weight: 2
 ---
 
 This is a tentative schedule, subject to change depending on the class pace, student learning needs, and/or unforeseen circumstances, such as power outage because of snowstorms. Check the course announcements and emails in **Canvas** for up-to-date information.

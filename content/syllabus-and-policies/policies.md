@@ -1,6 +1,6 @@
 ---
 title: Course and University Policies
-weight: 4
+weight: 3
 ---
 These documents have the course and university policies that the course will follow:
 - [Course Policies](course-policies.pdf)
