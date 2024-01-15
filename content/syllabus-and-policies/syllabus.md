@@ -1,6 +1,6 @@
 ---
-title: Course and University Policies
-weight: 2
+title: Syllabus
+weight: 1
 ---
 
 ## BASIC COURSE INFORMATION

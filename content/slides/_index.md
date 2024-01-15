@@ -1,6 +1,6 @@
 ---
 title: Slides
-weight: 2
+weight: 1
 ---
 - [Week 1](./week1/week1.pdf)
 - [Week 2](./week2/week2.pdf)
