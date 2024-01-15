@@ -22,17 +22,18 @@ _class:
 ---
 
 # Welcome to COMP741/841 Practical Artificial Intelligence
-Spring 2024
+Fall 2023​
 
 ## Agenda
-- Introduction and attendance (~20 min)​
+- Introduction and attendances (~20 min)​
+- The power and peril of AI  (or humankind?) (~30 min)​
+    - State-of-the-art diffusion and large language models presentation by Prof. Noboa​
 - Course information (~20 min)​
-    - Syllabus, requirements, resources
-    - Activities, schedule, assessment
-    - Policies​
+    - Syllabus, resources, requirements, activities, schedule, assessment, policies​
 - Due next week (~10 min)​
     - Tools: communication, reading,  writing, and development​
     - First assignment: Assigned reading and reading notes (RN1)​
+    - Reading notes presentation​
 - What is AI? (~20 min)​
 
 ## Introductions and attendance​
@@ -44,18 +45,24 @@ Instructor, classroom assistant, and students​
 Fill in the attendance sheet: first 5 minutes of each class​
 
 ## Discord Sign In​
-- Create a Discord account with your UNH email (given-name.family-name@unh.edu and UNH password)
+- Create a Discord account with your UNH first name, last name email (and password – easy to remember)
 - Join the course Discord server using your Discord account​
-    - Go to Canvas (mycourses.unh.edu) and get the Discord server link from Announcements​
+    - Go to Canvas (mycourses.unh.edu) and use Discord link​
 - Log in with your Discord credentials
     - Do NOT sign in as a guest​
-- Change your Discord Server name to your ***Family name, Given name** by editing your server profile​
+- Change your Discord Server name to your **preferred given name​** (should be capitalized) by editing your server profile​
+- Classroom assistant will add you to the section channel set up for your course section
+
+## The Power and Peril of AI (or Humankind?)​
+State-of-the-art diffusion and large language models (LLMs)​
+- Presentation and lab demo by Prof. Nicholas Noboa​
+- Zoom link: [https://unh.zoom.us/j/99935720844?from=addon](https://unh.zoom.us/j/99935720844?from=addon)​
 
 ## Course Information
-- Instructors: Professors Sabin​
+- Instructors: Professors Noboa and Sabin​
 - Weekly 1 hr 50 min class meetings: bring your laptop and charger!​
 - Resources​
-    - Canvas, Discord, GitHub, Zoom (if needed), Zotero​
+    - Canvas, Discord, OneDrive, GitHub, Zoom (if needed), Zotero​
     - Readings: ​
         - Wikipedia’s outline of AI: [https://en.wikipedia.org/wiki/Outline_of_artificial_intelligence](https://en.wikipedia.org/wiki/Outline_of_artificial_intelligence)
         - Wikipedia AI [https://en.wikipedia.org/wiki/Artificial_intelligence#](https://en.wikipedia.org/wiki/Artificial_intelligence#)
