@@ -1,3 +1,8 @@
+---
+title: Syllabus
+weight: 2
+---
+
 ## BASIC COURSE INFORMATION
 - Semester: Spring 2024
 - Credits: 
