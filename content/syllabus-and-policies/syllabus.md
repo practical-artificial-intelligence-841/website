@@ -257,25 +257,28 @@ openness.
 
 All online communication on personal matters between a student and instructor is exclusively using Canvas Inbox tool. 
 
-### Development Tools
+### Development Tools and Services
 
 Your laptop is the development platform for learning activities in
 this class. You can use the operating system you are more comfortable with: Windows, Mac OSX, or a Linux distribution, such as Ubuntu. 
 
-AWS SageMaker will serve as a cloud development environment. An account
-will have to be requested using your UNH email address.
-
 The **development tools** you need to have on your machine installed at
 the global/system level are:
--   **bash shell**
--   **Python 3** (3.10 or higher)
--   **git**
--   **Visual Studio Code**
--   Python tools integrated with Visual Studio Code include
+-   bash shell
+-   Python 3 (3.10 or higher)
+-   git
+-   Visual Studio Code
+-   VS Code tools (extensions)
     -   GitHub Copilot
     -   Jupyter Notebook
     -   Debugger
     -   Static analysis tools (e.g., pycodestyle, pylint).
+
+Cloud services for which you need create accounts are:
+- AWS SageMaker Studio Lab
+- Google Colab
+
+Use your UNH email address to create accounts on these platforms.
 
 ### Tech Consultants and Classroom Assistants
 

@@ -60,33 +60,31 @@ Fill in the attendance sheet: first 5 minutes of each class​
         - Wikipedia’s outline of AI: [https://en.wikipedia.org/wiki/Outline_of_artificial_intelligence](https://en.wikipedia.org/wiki/Outline_of_artificial_intelligence)
         - Wikipedia AI [https://en.wikipedia.org/wiki/Artificial_intelligence#](https://en.wikipedia.org/wiki/Artificial_intelligence#)
     - Zotero Practical AI group library: [https://www.zotero.org/](https://www.zotero.org/)​
-        - See **week1-zotero-intro.docx**
+        - See [Zotero Guidelines](https://practical-artificial-intelligence-841.github.io/website/resources-and-tools/zotero-intro/index.html) under **Resources and Tools** menu on left-hand side bar. 
 
-## Course Resources: Development Tools​
-- Linux-type of operating system​
-    - Mac OS – BSD (Berkeley Software Distribution) Unix kernel, known as Darwin​
-    - Windows Linux Subsystem (WSL)​
-    - Ubuntu or other Linux distributions​
+## Course Resources: Development Tools​ and Services
+Local tools
 - Bash shell​
 - Python 3.10​
-- Visual Studio Code, PyCharm​
+- Visual Studio Code
 - git​
+Cloud services
+- AWS SageMaker Studio Lab
+- Google Colab
 
 ## Learning Resources​
-- Course instructors, classroom assistants, and your peers​
+- Course instructor, classroom assistants, and your peers​
     - In-class and Discord participation​
     - Guided, collaborative, and independent study activities​
-- Study groups, every Friday
+- Study groups
     - With peers, facilitated by classroom assistants
 - One-on-one check-ins with course instructor
 - Tutoring in the Center for Academic Enrichment​
     - Programming, writing, multilingual learning​
 
 ## Learning Activities, Assignments, and Assessment​
-- Assigned reading and reading notes (10%)​
+- Assigned reading and reading notes (15%)​
     - Assigned every week, Week 1 to Week 9​
-- Reading notes group presentation (15%)
-    - Groups of 2-3 students present summary of one assigned reading​
 - Lab projects (25%)
     - Assigned every week, Week 2 to Week 5, and Week 6 to Week 9
 - Team project (50%)​
@@ -95,6 +93,7 @@ Fill in the attendance sheet: first 5 minutes of each class​
         - Proposal and design document
         - Codebase and demo​
         - Final report​
+- In-class participation (10%)
 
 ## Learning Goals​
 Balancing the **science of AI** with its **engineering applications**, you will learn:​
@@ -112,9 +111,9 @@ Balancing the **science of AI** with its **engineering applications**, you will 
 
 ## Due Next Week: Tools​
 - **Communication**: Discord and Canvas​
-    - Have Discord and Canvas apps on your phone and your machine to be notified of all learning activities in this course​
+    - Have Discord and Canvas apps on your phone and your laptop to be notified of all learning activities in this course​
 
-- **Reading**: Zotero (see **week1-zotero-intro**)​
+- **Readings**: Zotero (see [Zotero Guidelines](https://practical-artificial-intelligence-841.github.io/website/resources-and-tools/zotero-intro/index.html) on the website)
     - Create Zotero account and download Zotero app​
     - Sync Zotero Group **Practical AI** library with your Zotero app​
     - Add Zotero Connector extension to both Chrome and Firefox on your machine​
@@ -123,7 +122,7 @@ Balancing the **science of AI** with its **engineering applications**, you will 
     - Create directory COMP841 (or COMP741) in your OneDrive account​
     - Create, draft, and finalize all your reading notes and other non-coding materials in your OneDrive folder for this course​
 
-- **Development**: Linux, bash shell, Python 3.10, VS Code, git​
+- **Development**: bash shell, Python 3, VS Code, git​, AWS SageMaker Studio Lab
 
 ## Due Next Week: Assigned Reading and Reading Notes​
 - Read the following articles:​
@@ -132,16 +131,6 @@ Balancing the **science of AI** with its **engineering applications**, you will 
 - Review and become familiar with the Reading Notes Guidelines in **week1-reading-notes-guidelines​**
 - Write your reading notes in a folder you create in your OneDrive account (e.g., COMP841 folder)​
 - Convert the reading notes document to PDF and submit it to the submission link in Canvas
-
-## Reading Notes Presentation​
-Need two volunteers!​
-- 10-12 min presentation at the beginning of the class (15 min after the hour!)​
-- One team member​
-    - Creates a PowerPoint document in their OneDrive folder for the course​
-    - Shares the document with the other team member​
-    - Title page has the full descriptions of the assigned readings along with the name of the presenter for each reading​
-- Readings are split evenly between presenters​
-- Each presenter prepares 4-5 slides to summarize key findings in the assigned reading​
 
 ## What is Artificial Intelligence?​
 - As an academic discipline​
