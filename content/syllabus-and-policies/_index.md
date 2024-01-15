@@ -1,6 +1,6 @@
 ---
 title: Syllabus and Policies
-weight: 2
+weight: 1
 ---
 
 {{% children depth="4" %}}
