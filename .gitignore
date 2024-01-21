@@ -1,0 +1,26 @@
+# Hugo
+/public/
+/resources/_gen/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+
+# Pycharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Temporary Files
+*.bak
+*.tmp
+*.temp
