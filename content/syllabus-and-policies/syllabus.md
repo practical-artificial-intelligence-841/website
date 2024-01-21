@@ -153,7 +153,7 @@ to know whether those who get your work products intend to submit them as theirs
 Equally important, this is NOT how you help someone learn.
 
 There are consequences if you deviate from the course and
-univeristy academic integrity policy. For academic integrity misconduct, you may receive **no credit** for the assignment in question. Persistent academic integrity misconduct will result in you failing the course. 
+university academic integrity policy. For academic integrity misconduct, you may receive **no credit** for the assignment in question. Persistent academic integrity misconduct will result in you failing the course. 
 
 You will receive notice of the academic misconduct allegation from the course instructor. The course instructor will meet with you and give you the opportunity to respond. If the violation stands, the course instructor will report it to the Office of Community Standards. 
 
