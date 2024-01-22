@@ -76,7 +76,7 @@ Cloud services
 - Course instructor, classroom assistants, and your peers​
     - In-class and Discord participation​
     - Guided, collaborative, and independent study activities​
-- Study groups
+- Group working sessions
     - With peers, facilitated by classroom assistants
 - One-on-one check-ins with course instructor
 - Tutoring in the Center for Academic Enrichment​
@@ -84,15 +84,14 @@ Cloud services
 
 ## Learning Activities, Assignments, and Assessment​
 - Assigned reading and reading notes (15%)​
-    - Assigned every week, Week 1 to Week 9​
+    - Assigned every other week, Week 1 to Week 8
+    - Draft, revise (RN Feedback), and finalize (RN Final)
 - Lab projects (25%)
-    - Assigned every week, Week 2 to Week 5, and Week 6 to Week 9
-- Team project (50%)​
-    - Starts Week 10, teams of 2 students
-    - Work products:​
-        - Proposal and design document
-        - Codebase and demo​
-        - Final report​
+    - Assigned every week, Week 2 to Week 7
+- Project Work (10%), starts Week 9
+    - Proposal, Design, First Presentation
+- Project Final (50%)​
+    - Codebase, Report, Final Presenataion
 - In-class participation (10%)
 
 ## Learning Goals​
@@ -110,27 +109,32 @@ Balancing the **science of AI** with its **engineering applications**, you will 
 - Practice with and develop personal qualities and behavioral patterns that are highly regarded in the workplace, such as being responsible, persistent, adaptable, and self-reflective. ​
 
 ## Due Next Week: Tools​
-- **Communication**: Discord and Canvas​
-    - Have Discord and Canvas apps on your phone and your laptop to be notified of all learning activities in this course​
+**Communication**: Discord and Canvas​
 
-- **Readings**: Zotero (see [Zotero Guidelines](https://practical-artificial-intelligence-841.github.io/website/resources-and-tools/zotero-intro/index.html) on the website)
-    - Create Zotero account and download Zotero app​
-    - Sync Zotero Group **Practical AI** library with your Zotero app​
-    - Add Zotero Connector extension to both Chrome and Firefox on your machine​
+Have Discord and Canvas apps on your phone and your laptop to be notified of all learning activities in this course​
 
-- **Writing**: OneDrive​
-    - Create directory COMP841 (or COMP741) in your OneDrive account​
-    - Create, draft, and finalize all your reading notes and other non-coding materials in your OneDrive folder for this course​
+**Readings**: Zotero (see [Zotero Guidelines](https://practical-artificial-intelligence-841.github.io/website/resources-and-tools/zotero-intro/index.html) on the website)
 
-- **Development**: bash shell, Python 3, VS Code, git​, AWS SageMaker Studio Lab
+Create Zotero account and download Zotero app​
 
-## Due Next Week: Assigned Reading and Reading Notes​
-- Read the following articles:​
-    - Eric Lipton. 2023. A.I. Brings the Robot Wingman to Aerial Combat. New York Times​
-    - Rachel Thomas. 2023. AI and Power: The Ethical Challenges of Automation, Centralization, and Scale​
-- Review and become familiar with the Reading Notes Guidelines in **week1-reading-notes-guidelines​**
-- Write your reading notes in a folder you create in your OneDrive account (e.g., COMP841 folder)​
-- Convert the reading notes document to PDF and submit it to the submission link in Canvas
+**Writing**: OneDrive​
+
+Create directory COMP841 (or COMP741) in your OneDrive account​
+
+**Development**
+
+bash shell, Python 3, VS Code, git​, AWS SageMaker Studio Lab
+
+## Due: Assigned Reading and Reading Notes​
+Read the following articles:​
+- Roscoe, Jules. 2024. ["A ‘Shocking’ Amount of the Web Is Already AI-Translated Trash, Scientists Determine.”](https://www.vice.com/en/article/y3w4gw/a-shocking-amount-of-the-web-is-already-ai-translated-trash-scientists-determine) Vice (blog), January 17, 2024.
+- Bastian, Matthias. 2024. [“Deepmind’s AlphaGeometry Solves Complex Math and Is a ‘Crucial Step’ toward AGI.”](https://the-decoder.com/deepminds-alphageometry-solves-complex-math-and-is-a-crucial-step-toward-agi/) THE DECODER, January 17, 2024.
+
+Read more about **RN1 Feedback** and **RN1 Final** in Cavnas Assignments. 
+
+Original research article on machine translation: 
+- Thompson, Brian, Mehak Preet Dhaliwal, Peter Frisch, Tobias Domhan, and Marcello Federico. 2024. “A Shocking Amount of the Web Is Machine Translated: Insights from Multi-Way Parallelism.” arXiv, January 11, 2024. https://doi.org/10.48550/arXiv.2401.05749.
+
 
 ## What is Artificial Intelligence?​
 - As an academic discipline​
