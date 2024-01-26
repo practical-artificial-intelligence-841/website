@@ -20,7 +20,7 @@ This is a tentative schedule, subject to change depending on the class pace, stu
 |||
 |9|Mar 19|Adversarial AI. Project ideas.|RN9, Lab7|
 |10|Mar 26|Form project teams. Choose project topic.|Project proposal|
-|11|Apr 2|Project proposal presentations||
+|11|Apr 2|Project proposal presentations|Project development|
 |12|Apr 9|Project status report|Project design|
 |13|Apr 16|Project status report|Project development| 
 |14|Apr 23|Project status report|Project development|
