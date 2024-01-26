@@ -25,7 +25,7 @@ _class:
 Spring 2024
 
 ## Agenda
-- Introduction and attendance (~20 min)​
+- Introduction (~20 min)​
 - Course information (~20 min)​
     - Syllabus, requirements, resources
     - Activities, schedule, assessment
@@ -35,7 +35,7 @@ Spring 2024
     - First assignment: Assigned reading and reading notes (RN1)​
 - What is AI? (~20 min)​
 
-## Introductions and attendance​
+## Introductions
 Instructor, classroom assistant, and students​
 - What is your preferred given name? ​
 - What do you like the most about computing?​
@@ -52,7 +52,6 @@ Fill in the attendance sheet: first 5 minutes of each class​
 - Change your Discord Server name to your ***Family name, Given name** by editing your server profile​
 
 ## Course Information
-- Instructors: Professors Sabin​
 - Weekly 1 hr 50 min class meetings: bring your laptop and charger!​
 - Resources​
     - Canvas, Discord, GitHub, Zoom (if needed), Zotero​
@@ -134,6 +133,7 @@ Bastian, Matthias. 2024. [“Deepmind’s AlphaGeometry Solves Complex Math and 
 
 Read more about **RN1 Feedback** and **RN1 Final** in Cavnas Assignments. 
 
+## Original Research
 Original research articles that inspired the assigned reading:
 
 Thompson, Brian, Mehak Preet Dhaliwal, Peter Frisch, Tobias Domhan, and Marcello Federico. 2024. A Shocking Amount of the Web Is Machine Translated: Insights from Multi-Way Parallelism. arXiv, January 11, 2024. https://doi.org/10.48550/arXiv.2401.05749.
@@ -193,8 +193,8 @@ Brian Christian, The Alignment Problem, 2020​
 Ethics of AI and Robotics, 2020, Stanford Encyclopedia of Philosophy, [https://plato.stanford.edu/entries/ethics-ai/​](https://plato.stanford.edu/entries/ethics-ai/​)
 
 
-## Open and Closed Source AI
-What makes an AI open or closed source?​
+## Open and Closed Source Neural AI
+What makes a neural AI system open or closed source?​
 - Model weights are publicly available​
     - Model weights auditability versus classical programs​
     - What parameters were used to train the model?​
@@ -217,6 +217,6 @@ What makes an AI open or closed source?​
     - Shopping recommendations versus military use​
     - Human user has more control as potential consequences increase​
 - Building trust in AI​
-    - AI must output accurate, but also​
+    - AI must produce accurate outputs, but also​
     - Reliable, safe, transparent, and explainable decisions​
 ​
