@@ -168,7 +168,7 @@ Student learning is assessed based on evidence produced by the following
 activities. Percentages show how much each activity contributes to the
 final grade.
 
-### Participation (10%)
+### Participation (10% Bonus)
 
 In-class learning encourages and supports everyone's participation.
 Outside class learning can rely on participation in study group
@@ -179,12 +179,16 @@ activities, open lab work, tutoring sessions, and discussions facilitated by the
 The first exposure to AI disciplinary content happens through the
 assigned reading. They are important for all the learning activities in
 this course: class meeting discussions, individual presentations, lab
-activities, and the team project. All students are expected to create an
-outline of the reading with notes that summarize key concepts,
-principles, models, and techniques, along with relevant questions and
-implications derived from the reading material. Reading notes are
-**entirely your own individual work**. They are due the midnight BEFORE
-the scheduled class meeting and are NOT accepted after the deadline.
+activities, and the team project. All students are expected to prepare notes that summarize key concepts, principles, models, and techniques, along with relevant questions and implications derived from the reading material. Reading notes are
+**entirely your own individual work**. 
+
+The reading notes:
+- Are developed in two steps over two weeks and 
+- Include a reading comprehension session with experts from the CAE. 
+
+The first draft (RN Feedback) is due the following week on Friday, by 5 pm. The final notes are due the week following the draft submission deadline and no later than midnight BEFORE class. 
+
+The reading notes are NOT accepted after the deadline.
 
 ### Lab Projects (25%)
 
@@ -194,7 +198,7 @@ solutions. Lab projects are **entirely your own individual work**. They
 are due the midnight BEFORE the scheduled class meeting and are NOT
 accepted after the deadline.
 
-### Team Project (50%)
+### Team Project (60%)
 
 The purpose of the project is to investigate and showcase the
 applicability of symbolic and neural AI approaches. You'll collaborate
@@ -202,12 +206,22 @@ with a peer to propose, design, document, and showcase your
 investigation. Project artifacts include a project proposal, project
 design, the codebase, presentation, and final report.
 
+The project proposal, design, and first presentation represent 10% of the final grade. 
+Codebase (10%), project report (25%), and final presentation and demo (15%) represent 50% of the final grade.
+
 ## ASSESSMENT OVERVIEW
 Evaluation of your work in this course takes into account the following learning activities:
-- Participation (10%)
-- Assigned Reading and Reading Notes (15%)
+- Reading Notes (15%)
+    - RN feedback (5%)
+    - RN final (10%)
 - Lab Projects (25%)
-- Team Project (50%)
+- Team Project (60%)
+    - Proposal, Design, First presenation (equal weights, totaling 10%)
+    - Codebase (10%)
+    - Report (25%)
+    - Final presentation and demo (15%)
+- Bonus for participation (10%)
+
 
 ## LEARNING RESOURCES
 

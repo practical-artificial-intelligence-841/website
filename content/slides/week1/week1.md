@@ -70,6 +70,7 @@ Local tools
 Cloud services
 - AWS SageMaker Studio Lab
 - Google Colab
+- GitHub
 
 ## Learning Resources​
 - Course instructor, classroom assistants, and your peers​
@@ -124,7 +125,7 @@ Create directory COMP841 (or COMP741) in your OneDrive account​. Add **Reading
 
 **Development**
 
-bash shell, Python 3, VS Code, git​, AWS SageMaker Studio Lab
+bash shell, Python 3, VS Code, git​, AWS SageMaker Studio Lab, GitHub, Google Colab
 
 ## Due: Reading Assignment
 Read the following articles:​

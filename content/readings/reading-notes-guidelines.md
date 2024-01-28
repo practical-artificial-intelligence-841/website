@@ -3,7 +3,7 @@ title: Reading Notes Guidelines
 weight : 1
 ---
 
-## Reading Conmprehension  
+## Reading Comprehension  
 The purpose of the assigned readings is for you to develop a better understanding of AI as a disciplinary study, technology, or professional career. 
 
 Reading comprehension helps you:
@@ -13,7 +13,7 @@ Reading comprehension helps you:
 
 ## Writing Process
 ### CAE Support
-To help you with the writing process of your reading notes, experts from the UNH Center for Academic Enrichmentreading are offering **weekly reading comprehension sessions**. You can also schedule **one-on-one writing tutoring appointments** to revise and get feedback on your notes. 
+To help you with the writing process of your reading notes, experts from the UNH Center for Academic Enrichment are offering **weekly reading comprehension sessions**. You can also schedule **one-on-one writing tutoring appointments** to revise and get feedback on your notes. 
 
 #### Reading Comprehension Session
 - When: After class at 4 pm
@@ -28,7 +28,7 @@ Another helping element is that the development of your notes is done in two ite
 - **RN Feedback** assignment is a first draft of your understanding of the assigned reading. 
 - **RN Final** uses RN Feedback to addresses questions and issues discussed in class. 
 
-#### RN Fedback Guidelines
+#### RN Feedback Guidelines
 - Allocate 1/2 hour of undisturbed/unplugged time to read each article. 
 - Read carefully the hard copy with a pen/pencil ready to underline or make notes in the margins of the page. 
 - Pay special attention to **new concepts** and **findings** you consider important.
@@ -46,7 +46,6 @@ Another helping element is that the development of your notes is done in two ite
 #### RN Final
 - **Preparation**
     - Must have RN1 Feedback completed. 
-    - Meet the 
 - **Logistics and Submission**
     -  Write your reading notes using Word in OneDrive
     - Keep your notes in the **Reading Notes** subfolder of your **COMP 841** folder in **OneDrive**.
@@ -68,7 +67,7 @@ Another helping element is that the development of your notes is done in two ite
     - Information about where the material was made available (e.g., internet URL, newspaper, other publication, etc.)  
 - References are listed at the end of the notes document. 
     - Use Zotero to generate proper references.
-    - Right click on the Zotero itme, select "Create Bibliography from Item ...", and then select "Chicago Manual Style 17th edition (author-date).
+    - Right click on the Zotero item, select "Create Bibliography from Item ...", and then select "Chicago Manual Style 17th edition (author-date).
     
 ## Similarity Check  
 - Failing to give attribution to the source from where you copy any material is **plagiarism** and an instance of academic integrity misconduct.  
@@ -91,9 +90,9 @@ Another helping element is that the development of your notes is done in two ite
     Jan 26, 2024
     ```
     - If the notes represent the first draft, title is **Reading Notes Draft**
-- Have sections with headings to better illustrate the structure of the notes, based on the reading assginment requirements. 
+- Have sections with headings to better illustrate the structure of the notes, based on the reading assignment requirements. 
     - Multiple articles should have separate headings
-    - Quesitons or issues related to each article should have subheadings.  
+    - Questions or issues related to each article should have subheadings.  
 - If you choose to include **figures** or **tables**, you MUST provide a **caption**, describing what the figure/table represents.  
 - Captions of figures/tables which are taken from other sources MUST cite the reference of the source.
 
