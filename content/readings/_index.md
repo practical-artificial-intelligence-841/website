@@ -1,6 +1,6 @@
 ---
 title: Reading Assignments
-weight: 6
+weight: 3
 ---
 
 {{% children depth="4" %}}

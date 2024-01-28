@@ -1,6 +1,6 @@
 ---
 title: Labs
-weight: 3
+weight: 4
 ---
 
 {{% children depth="1" %}}
