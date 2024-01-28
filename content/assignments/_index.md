@@ -1,6 +1,6 @@
 ---
-title: Assignments
+title: Labs
 weight: 3
 ---
 
-{{% children depth="4" %}}
+{{% children depth="1" %}}
