@@ -28,7 +28,7 @@ This is a tentative schedule, subject to change depending on the class pace, stu
 |||
 |||**Reading day, May 7**|Codebase, Final report|
 |||
-|15|May 14|Presentations and Demos|Project completion| 
+|16|May 14|Presentations and Demos|Project completion| 
 
 
 

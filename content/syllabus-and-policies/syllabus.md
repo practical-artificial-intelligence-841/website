@@ -23,7 +23,7 @@ weight: 1
 ### How to get in touch with the instructor 
 - Email the instructor using **Canvas Inbox tool** 
 - Schedule an in-person or Zoom meeting
-- Meet after class during help session.
+- Meet after class during the help session.
 
 ## COURSE DESCRIPTION
 
