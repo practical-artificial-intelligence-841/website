@@ -1,6 +1,7 @@
 ---
 title: Reading Notes Guidelines
-weight : 1
+weight: 1
+draft: true
 ---
 
 ## Organization of the Notes 
