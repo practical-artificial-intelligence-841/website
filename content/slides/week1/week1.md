@@ -107,33 +107,35 @@ Balancing the **science of AI** with its **engineering applications**, you will 
 - Participate in and bring your own contribution to the development of a team project that demonstrates the applicability of neural and symbolic AI approaches. ​
 - Practice with and develop personal qualities and behavioral patterns that are highly regarded in the workplace, such as being responsible, persistent, adaptable, and self-reflective. ​
 
-## Due Next Week: Tools​
+## Due: Platforms and Tools
+Deadline: Wednesday night, before class
+
 **Communication**: Discord and Canvas​
 
 Have Discord and Canvas apps on your phone and your laptop to be notified of all learning activities in this course​
 
 **Readings**: Zotero (see [Zotero Guidelines](https://practical-artificial-intelligence-841.github.io/website/resources-and-tools/zotero-intro/index.html) on the website)
 
-Create Zotero account and download Zotero app​
+Create Zotero account, download Zotero app​, and add Zotero connector to the browsers you use frequently (Chrome, Firefox)
 
 **Writing**: OneDrive​
 
-Create directory COMP841 (or COMP741) in your OneDrive account​
+Create directory COMP841 (or COMP741) in your OneDrive account​. Add **Readings** subdirectory where you'll write your reading assignments. 
 
 **Development**
 
 bash shell, Python 3, VS Code, git​, AWS SageMaker Studio Lab
 
-## Due: Assigned Reading and Reading Notes​
+## Due: Reading Assignment
 Read the following articles:​
 
 Roscoe, Jules. 2024. ["A ‘Shocking’ Amount of the Web Is Already AI-Translated Trash, Scientists Determine.”](https://www.vice.com/en/article/y3w4gw/a-shocking-amount-of-the-web-is-already-ai-translated-trash-scientists-determine) Vice (blog), January 17, 2024.
 
 Bastian, Matthias. 2024. [“Deepmind’s AlphaGeometry Solves Complex Math and Is a ‘Crucial Step’ toward AGI.”](https://the-decoder.com/deepminds-alphageometry-solves-complex-math-and-is-a-crucial-step-toward-agi/) THE DECODER, January 17, 2024.
 
-Read more about **RN1 Feedback** and **RN1 Final** in Cavnas Assignments. 
+See more information in [Reading Assignments](https://practical-artificial-intelligence-841.github.io/website/readings/index.html), also referenced from Canvas Assignments. 
 
-## Original Research
+## Optional Research Articles
 Original research articles that inspired the assigned reading:
 
 Thompson, Brian, Mehak Preet Dhaliwal, Peter Frisch, Tobias Domhan, and Marcello Federico. 2024. A Shocking Amount of the Web Is Machine Translated: Insights from Multi-Way Parallelism. arXiv, January 11, 2024. https://doi.org/10.48550/arXiv.2401.05749.
