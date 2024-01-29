@@ -1,6 +1,6 @@
 ---
-title: Reading Assignment 1
-weight: 1
+title: Reading Notes 1
+weight: 2
 ---
 ### Assigned Reading
 - Roscoe, Jules. 2024. ["A ‘Shocking’ Amount of the Web Is Already AI-Translated Trash, Scientists Determine.”](https://www.vice.com/en/article/y3w4gw/a-shocking-amount-of-the-web-is-already-ai-translated-trash-scientists-determine) Vice (blog), January 17, 2024.

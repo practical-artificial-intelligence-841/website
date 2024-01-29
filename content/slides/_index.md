@@ -3,7 +3,7 @@ title: Slides
 weight: 2
 ---
 - [Week 1](./week1/week1.pdf)
-- [Week 2](./archive/week0.pdf)
+- [Week 2](./week2/week2.pdf)
 - [Week 3](./archive/week0.pdf)
 - [Week 4](./archive/week0.pdf)
 - [Week 5](./archive/week0.pdf)
