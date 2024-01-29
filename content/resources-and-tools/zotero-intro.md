@@ -54,5 +54,7 @@ This is an example of how to use the **Zotero Connector extension**
 Another way to add items to your Zotero library is by using identifiers, such as ISBN number, DOI number, etc. See below.  
 ![img](zotero-3.png)
 
+#### #zotero Channel on COMP 841 Discord Server
+If you have any queries or require assistance, post them in the #zotero channel in the COMP 841 Discord server. This space is dedicated to addressing questions related to Zotero Practical AI Group.
 
- 
+If you have not yet joined the COMP 841 Discord Server, kindly inform your classroom assistant to ensure timely access.
