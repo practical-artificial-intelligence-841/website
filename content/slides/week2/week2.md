@@ -24,7 +24,6 @@ _class:
 # Artificial Neurons​
 Intro to Neural Networks​
 COMP 741/841 Week 2​
-Fall 2023​
 
 ## Agenda​
 - Reading assignment (10-15 min)​
