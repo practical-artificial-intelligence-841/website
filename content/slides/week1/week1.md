@@ -22,7 +22,7 @@ _class:
 ---
 
 # Welcome to COMP741/841 Practical Artificial Intelligence
-Spring 2024
+COMP 741/841/ Week 1
 
 ## Agenda
 - Introduction (~20 min)​

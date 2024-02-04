@@ -21,8 +21,7 @@ _class:
  - invert
 ---
 
-# Artificial Neurons​
-Intro to Neural Networks​
+# First Exposure to Neural AI
 COMP 741/841 Week 2​
 
 ## Agenda​
@@ -32,7 +31,6 @@ COMP 741/841 Week 2​
         - git and GitHub, conda, Python virtual environments, Jupyter Notebooks​
         - VS Code
     - Building  an image classifier
-- History of ML and Artificial Neurons (30 min)​
 - Due next week (10 min)​
 
 ## Reading Assignment
@@ -40,10 +38,9 @@ COMP 741/841 Week 2​
 - New concepts and terms
 - Questions and issues of interest 
 
-## Development Tools - Git​
-- git versus GitHub​
-    - git: version control system​ to track changes to files in a repo
-    - GitHub: Microsoft-owned hosting service for storing and managing remote git repos​
+## Development Tools - Git​ and GitHub
+- git: version control system​ to track changes to files in a repo
+- GitHub: Microsoft-owned hosting service for storing and managing remote git repos​
 - Cloning repos​
     - From GitHub org of the course: [https://github.com/2024-spring-comp-741-841/](https://github.com/2024-spring-comp-741-841/) ​
     - Get invitation link from Discord
@@ -64,7 +61,6 @@ Networking commands
 ```
 git clone <url remote repo>  <local repo name>
 git push origin main
-git push origin new_branch
 ```
  ​
 ## Development Tools – Python Virtual Environment​
@@ -87,7 +83,7 @@ Why use a virtual environment?​
 - Installs Python instances​
 - Bundled with Anaconda or Miniconda​
 
-## Development Tools – conda​
+## Development Tools – anaconda and miniconda3
 - Anaconda platform - contains​
     - Distribution of Python and R​
     - Lots of packages automatically installed (~250) and more (~1,500)​
@@ -101,11 +97,13 @@ Why use a virtual environment?​
 Provides tools for **interactive computing** across many programming languages​.
 
 - Jupyter **kernel**​
-    - Run-time environment for a specific programming language​
-- **ipykernel**
-    - Provides Python kernel (IPython) for Jupyter​
+    - Run-time environment of a Jupyter notebook in a specific programming langauge 
+    (Python, R)
+    - **ipykernel**
+        - Provides Python kernel (IPython) for a Jupyter notebook
 - Jupyter Server​
     - Backend (or core services and API) to a Jupyter application​
+    - Allows running Jupyter notebooks through web-based interfaces
 
 ## Development Tools – Jupyter Project​
 - Jupyter Stack – layered services for​
@@ -114,13 +112,13 @@ Provides tools for **interactive computing** across many programming languages�
     - Contributors to the Jupyter Server library​
 - Jupyter notebook (formerly IPython notebook)​
     - Web application that creates and runs **interactive  computational documents​**
-- Computational document (or notebook)​
-    - Made of **cells** ​
-    - Cells contains code, text (written in Markdown), visualizations, and more​
+    - Computational document (or notebook)​
+        - Made of **cells** ​
+        - Cells contains code, text (written in Markdown), visualizations, and more​
 
-## Development Tools – Jupyter Project​
+## Development Tools – Jupyter Noteboook and JupyterLab
 - Managed by a kernel (run-time environment)​
-    - **ipykernel** runs selected Python-based notebooks (file extension **.ipynb**)​
+    - **ipykernel** runs selected Python-based notebooks (file extension **.ipynb**​
     - Notebook cells can be run in any order​
     - Variables are saved and managed by the kernel​
 - JupyterLab – newer user interface than the classic notebook​
@@ -137,16 +135,15 @@ Provides tools for **interactive computing** across many programming languages�
     - Neural network can identify and classify images it hasn't 'seen' before​
     - Neural network can't distinguish between multiple objects in image​
         - What happens if a model trained on MNIST is given an image with two digits?​
-- What are some real-world use cases for image classification?​
+- What are some real-world applicaitonsfor image classification?​
 
 ## Lab 1 – Getting Started​
-- Join COMP841 GitHub organization​
+- Join COMP 741/841 GitHub organization​
     - 2024-spring-comp-741-841​
     - Home for remote repositories we create in this class
 - GitHub Classroom roster has your Family name, Given name
     - When first "invited" to get access to a new repo, select your full name from the roster
     - A copy of the Lab 1 repo is created for your access only.
-
 
 ## Due Next Week and Required Learning Materials
 See **Week 2** module in Canvas. 
