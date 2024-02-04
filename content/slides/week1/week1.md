@@ -25,15 +25,15 @@ _class:
 COMP 741/841/ Week 1
 
 ## Agenda
-- Introduction (~20 min)​
-- Course information (~20 min)​
+- Introduction
+- Course information
     - Syllabus, requirements, resources
     - Activities, schedule, assessment
     - Policies​
-- Due next week (~10 min)​
+- Due next week
     - Tools: communication, reading,  writing, and development​
     - First assignment: Assigned reading and reading notes (RN1)​
-- What is AI? (~20 min)​
+- What is AI?
 
 ## Introductions
 Instructor, classroom assistant, and students​

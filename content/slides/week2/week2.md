@@ -25,13 +25,13 @@ _class:
 COMP 741/841 Week 2​
 
 ## Agenda​
-- Reading assignment (10-15 min)​
-- Lab 1 (50 min)​
+- Reading assignment: Gains and perils of neural networks
+- Lab 1 
     - Development tools​
         - git and GitHub, conda, Python virtual environments, Jupyter Notebooks​
         - VS Code
     - Building  an image classifier
-- Due next week (10 min)​
+- Due next week
 
 ## Reading Assignment
 - Main takeaways

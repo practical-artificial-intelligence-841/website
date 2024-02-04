@@ -21,26 +21,26 @@ _class:
  - invert
 ---
 
-# AI Paradigms: Neural and Sybmolic
+# AI Paradigm: Sybmolic AI
 COMP 741/841 Week 3​
 
 ## Agenda​
-- Image classification
-- Symbolic AI: heuristic search
+- Symbolic AI and A* search
+- Lab 2 
+- Assigned reading
+    - Data poisoning: double-edge sward
 - Due next week
-
-## Assigned Reading (RN2)
-Dhar, Payal. 2023. “Protecting AI Models from “Data Poisoning".” 2023. IEEE Spectrum.  
-https://spectrum.ieee.org/ai-cybersecurity-data-poisoning 
 
 ## Symbolic AI​
 - AI paradigm, born in mid-1950s, went through “summers” and “winters”
-- Collection of theories, techniques​
-    - Inspired by how humans reason​
-    - Based on symbolic representations of the problem, with
+- Inspired by how humans reason​ (system 2 in the dual process theory)
+- "Solves" problems: 
+    - Based on the **symbolic representations** of the problem:
         - entities and relationships that ​have meanings for humans​
+    - Using **symbolic reasoning** that's based on knowledge representation
+        - inferences, rules, algorithmic steps
 
-## Examples of symbolic AI approaches and systems​
+## Examples of symbolic AI
 - Search​
     - Heuristic (combinatorial) search
 - Logic-based problem solvers, mathematical reasoning, automatic theorem proving​
@@ -51,49 +51,50 @@ https://spectrum.ieee.org/ai-cybersecurity-data-poisoning
     - e.g., Hidden Markov Models (speech recognition)​
 - Planning, Natural Language Processing (NLP), Satisfiability, Constraint Satisfaction, …​
 
-## Symbolic AI benefits and limitations
-- Explainable​
-    - Humans can follow how input changes through the algorithm into the output​
-- But limited by:
-    - Knowledge acquisition
-        - Domain knowledge experts are needed to represent the knowledge​
-    - 
+## Symbolic AI benefits
+- Explicit representation of the domain knowledge (related to the problem)
+- Well-deinfed logical, deductive, inferential reasoning steps of the problem solving process
+- Transparency and explainability
+    - Humans can understand and explain the automated decision-making process
+
+## Symbolic AI limitations
+- Knowledge acquisition bottleneck
+    - Domain knowledge experts are needed to create adequate knowledge representations
+- Difficulties representing the domain knowledge, which can be:
+    - ambiguous, incomplete, uncertain, complex
+- Brittleness if the knowledge representation needs changes
+- Limited scalability
 
 ## Neural AI
-Inspired by how the brain functions​
-- Non-explainable, opaque​
-    - Input to output can be traced, but the trace is unintelligible​
+- AI paradigm, born in mid-1940s, went through ups and downs
+- Inspired by how the brain functions​ (system 1 of dual process theory)
 - Requires large amounts of data​
-    - MNIST (a simple task for today's standards) requires 60,000 train images​
-- Can 'learn' unintended routines​
+    - MNIST (a simple task for today's standards) requires 60,000 training images​
+- "Learns" from data
+    - Finds patterns and makes predictions based on complex and unstructred data
+- Non-explainable, opaque​
+    - Input to output can be traced
+    - But the trace does not help with explaining the outputs
 
-## A* Search Algorithm ​
-(a.k.a informed search  or best-first search algorithm​)
-Solves the following **problem**:​
-- Find the most cost-effective path from a specified **source** to a specified **goal​**
+## A* search algorithm ​
+Source: [Wikipeida A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
 
-Problem **input representation: weighted graph** (nodes and edges)​
-Problem **output representation**:
-- A path in the graph, from source to goal, having the smallest cost (sum of the weights)​
+Solves the following **problem**:​ Find the most cost-effective path from a specified **source** to a specified **goal​**
 
-Uses a **heuristic function h(n)**:
-- The function calculates an estimate of the cheapest path from a node **n** to the **goal**
+- Problem **input representation**: weighted graph (nodes and edges)​
+- Problem **output representation**: A path in the graph, from source to goal, having the smallest cost (sum of the weights)​
 
-## A* Search Algorithm
+Uses a **heuristic function h(n)**: calculates an estimate of the cheapest path from a node **n** to the **goal**.
+
+## A* optimality condition
 - If **h(n)** is **admissible**, that is, it **never overestimates** the **actual cost** to get to the **goal​​**
-- Then A* guarantees optimality, that is finds the **least-cost path** from **source** to **goal**
+- Then A* guarantees optimality, that is, finds the **least-cost path** from **source** to **goal**
 
-Applications​
+## A* applications
 - Find the shortest route on a map, **h(n)** can be the straight-line distance to the goal​
 - Find the shortest route on a **grid map, h(n)** can be the **Manhattan distance**​
 
-Algorithm idea ​
-- Maintain a tree of paths that start at the **source** node​
-- Extend those paths one edge at a time until ​
-    - **goal** node is reached OR there is no eligible path to extend​
-
-
-## Lab 2: A* Search Algorithm
+## A* algorithm idea ​
 At each iteration, determine which of the paths to extend with the **next node n** by calculating​
 - **g(n)**: The cost of the path from the **source** to **next node n**  and​
 - **Heuristic function h(n)**, which​
@@ -103,33 +104,34 @@ At each iteration, determine which of the paths to extend with the **next node n
 - Pseudocode: [https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode](https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode)
 - Examples with animation: [https://en.wikipedia.org/wiki/A*_search_algorithm#Example](https://en.wikipedia.org/wiki/A*_search_algorithm#Example)
 
-## Lab 2: A* Search Algorithm
-- Implementation with explanations: ​
-    - Andreas Soularidis: An Introduction to A* Algorithm in Python
-    [https://medium.com/p/79475244b06f](https://medium.com/p/79475244b06f)
-    - Also published on PlainEnglish at [https://plainenglish.io/blog/a-algorithm-in-python](https://plainenglish.io/blog/a-algorithm-in-python)
+## A* algorithm data structure
+- Uses a **priority queue** to select the next node to expend
+- The queue is known as `fringe` or `frontier`
+- At each step, the node `x` with the lowest `f(x)` is removed from the queue
+    - `f` and `g` values of the neighhbors of `x` are calculated
+    - the neighbors are added to the queue
+- Algorithm continues until:
+    - the removed node is the **goal** node, OR 
 
-- GitHub URL from Andreas Soularidis public repo **medium_articles** [https://github.com/AndreasSoularidis/medium_articles.git](https://github.com/AndreasSoularidis/medium_articles.git)
-    - See **AStarAlgorithm** folder​
+## A* search algorithm implementation
+Andreas Soularidis: An Introduction to A* Algorithm in Python
+[https://medium.com/p/79475244b06f](https://medium.com/p/79475244b06f)
+- Also published on PlainEnglish at [https://plainenglish.io/blog/a-algorithm-in-python](https://plainenglish.io/blog/a-algorithm-in-python)
 
-## Lab2 Requirements​
-- Accept the GitHub classroom invitation shared in the Discord channel
-- Clone lab2-xxx remote repo to your **labs** directory under the name **lab2​**
-    - **git clone <remote-url>  lab2​**
-- Launch VS Code and open **lab2** directory. ​
+GitHub URL from Andreas Soularidis public repo **medium_articles** [https://github.com/AndreasSoularidis/medium_articles.git](https://github.com/AndreasSoularidis/medium_articles.git)
+- See **AStarAlgorithm** folder​
 
-## Lab2 Requirements​
-- Install **pylint** and **pycodestyle** (pip install pylint and pip install pycodestyle)​
-- Move to **lab2** and **mark directory as source root**. Run **main.py​**
-- Examine the list of styling and coding errors reported in the **Problems** tab ​
-- Create STYLE-LOG.md file to record types of errors you have fixed (touch STYLE-LOG.md)
-- Run **pylint** and **pycodestyle** on all 3 Python files: main.py, a_star.py, graph.py​
-- Fix as many errors as you can​
-- Updated STYLE-LOG.md with new types of errors you’ve fixed.​
-- Add in STYLE-LOG.md the types of errors you couldn’t fix. ​
+## Lab 2
+See description in Canvas. 
+
+## Assigned Reading (RN2)
+Dhar, Payal. 2023. “Protecting AI Models from “Data Poisoning".” 2023. IEEE Spectrum.  
+https://spectrum.ieee.org/ai-cybersecurity-data-poisoning 
+
+Heikkila, Melissa. 2023. This New Data Poisoning Tool Lets Artists Fight Back against Generative AI. Magazine. MIT Technology Review. https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/.
 
 ## Due Next Week​, Monday, Feb 12
-- Lab 2
-- Assigned reading annotated
+- Complete and submit Lab 2
+- Read, annotate, and be prepared to discuss assigned reading
 
 
