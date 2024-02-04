@@ -21,14 +21,14 @@ _class:
  - invert
 ---
 
-# AI Paradigm: Sybmolic AI
+# AI Paradigm: Symbolic AI
 COMP 741/841 Week 3​
 
 ## Agenda​
 - Symbolic AI and A* search
 - Lab 2 
 - Assigned reading
-    - Data poisoning: double-edge sward
+    - Data poisoning: A double-edge sword
 - Due next week
 
 ## Symbolic AI​
@@ -130,8 +130,11 @@ https://spectrum.ieee.org/ai-cybersecurity-data-poisoning
 
 Heikkila, Melissa. 2023. This New Data Poisoning Tool Lets Artists Fight Back against Generative AI. Magazine. MIT Technology Review. https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/.
 
-## Due Next Week​, Monday, Feb 12
+## Due Next Week​
+Monday, Feb 12, midnight
 - Complete and submit Lab 2
 - Read, annotate, and be prepared to discuss assigned reading
+
+
 
 
