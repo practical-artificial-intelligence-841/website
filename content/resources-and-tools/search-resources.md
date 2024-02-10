@@ -1,5 +1,5 @@
 ---
-title: Types of Search
+title: Search Resoures
 weight: 1
 ---
 

@@ -4,17 +4,20 @@ weight: 7
 ---
 ## Neural Networks Structure 
 Classic example: Recognize handwritten digits represented on 28 x 28 pixel grid (Sanderson, 2017) 
-![img](nn-1.png)    Figure 1. A pixel has gray value between 0.0 and 1.0 (black is 0, white is 1). Source: Sanderson, 2017. 
+
+![img](nn-1.png)    
+Figure 1. A pixel has gray value between 0.0 and 1.0 (black is 0, white is 1). Source: Sanderson, 2017. 
 
 - Pixel value determines the activation of the neuron 
-
 - Example of NN with 2 hidden layers of 16 neurons each  
     - Input layer:  
         - 784 (28 x 28) neurons, with activation values: a_1, a_2, a_3, …, a_784 
     - Two hidden layers, each of 16 neurons
     - Output layer: 10 neurons 
+
 ![img](nn-2.png)
 Figure 2. Neural network with 784-neuron input layer, 2 16-neuron hidden layers, and a 10-neuron output layer. Recognizing a handwritten image of the digit 9 shows 1.0 activation for the last neuron in the output layer.
+
 - How are the activations of the NEXT layer of neurons calculated?  
     - Sum of a_i * w_i  is calculated from the input layer activations to produce the activation of each neuron on the next layer 
         - The **weights** are positive or negative numbers 
