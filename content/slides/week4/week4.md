@@ -30,8 +30,7 @@ COMP 741/841 Week 4​
 - Review: Search
 - Machine learning and deep learning
 - Getting started on Lab3
-- Assigned reading discussion
-- Due next week
+- Discussion: Assigned reading discussion
 
 ## Search Problem
 - Description
@@ -49,7 +48,13 @@ COMP 741/841 Week 4​
 - Path: a plan to reach the current state from start state
 
 ## Search Example 
-- Read the [search example]()
+- Review [search algorithms](https://practical-artificial-intelligence-841.github.io/website/ai-topics/search-resources/index.html#search-example) on the course website
+- Consider the graph example of a search problem
+    - Edges have actual costs
+    - Nodes have esimated (heuristic) costs of the path to the goal node
+- Examine what different algorithms do by tracing
+    - Frontier list
+    - Explored nodes list
 
 
 ## Neural AI: Machine Learning
