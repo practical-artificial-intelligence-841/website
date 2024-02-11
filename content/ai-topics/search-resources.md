@@ -1,6 +1,6 @@
 ---
 title: Search Resoures
-weight: 5
+weight: 6
 ---
 
 Codecademy https://www.codecademy.com/about has a list of AI search algorithms.  

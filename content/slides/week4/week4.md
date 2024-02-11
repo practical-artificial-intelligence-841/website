@@ -48,8 +48,9 @@ COMP 741/841 Week 4​
 - Children nodes: neighboring (successor) states from current state
 - Path: a plan to reach the current state from start state
 
-## Example 
-    
+## Search Example 
+- Read the [search example]()
+
 
 ## Neural AI: Machine Learning
 * Subfield of AI
@@ -98,9 +99,9 @@ How does DL learn from data **using neural networks**?
 **_Source_** : AWS. 2023. What’s the difference between ML and DL. https://aws.amazon.com/compare/the-difference-between-machine-learning-and-deep-learning/
 
 ## Lab3: Sequential Neural Networks
-- Keras sequential 
+- Keras Sequential model
     - Brief tutorial: https://www.dataquest.io/blog/tutorial-introduction-to-keras/ 
-- Guided walk-through
+- Log in your SageMaker Studio Lab account, CPU instance
 - Get a copy of `lab3` from the GitHub course org by accepting the GitHub classroom invitation
 - Clone `lab3` to your SageMaker CPU instance
 - Create Markdown cells before each code cell detailing what the code is performing
