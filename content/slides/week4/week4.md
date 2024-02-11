@@ -22,32 +22,36 @@ _class:
  - invert
 ---
 
-# Neural AI: Machine learning vs deep learning
+# Neural AI: Machine Learning and Deep Learning
 COMP 741/841 Week 4​
 
 
 ## Agenda
-
 - Review: Search
-- Supervised Learning
-    - The perceptron
-    - Neureal networks basics
+- Machine learning and deep learning
 - Getting started on Lab3
 - Assigned reading discussion
 - Due next week
 
-## Lab3: Sequential Neural Networks
+## Search Problem
+- Description
+    - Given a **start state**
+    - Reach the  **goal state**
+    - By moving from state to state based on **actions** taken at each state.
+- Representation of the problem's **state space** is **graph**
+    - nodes: representing states
+    - edges: representing actions to move from one state to another
 
-- Revisits Keras sequential model
-- Guided walk-through
-- Fork **lab3-sequential-neural-networks** from the GitHub course org by accepting the GitHub classroom invitation shared in your section Discord channel
-- Clone lab to your SageMaker CPU instance
-- Create Markdown cells before each code cell detailing what the code is performing
-    - Markdown cells _must_ be **_entirely_** in your own words
+## State Search Tree
+- Root: start state
+- Node: current state
+- Children nodes: neighboring (successor) states from current state
+- Path: a plan to reach the current state from start state
 
-## Machine Learning vs Deep Learning
+## Example 
+    
 
-**Machine Learning**
+## Neural AI: Machine Learning
 * Subfield of AI
 * Mathematical basis
     * Statistics (regression, decision trees)
@@ -60,8 +64,7 @@ COMP 741/841 Week 4​
     * Predicts outputs for unknown inputs
 * Requires significant computing power
 
-## Deep Learning
-
+## Neural AI: Deep Learning
 * Subfield of machine learning (ML)
 * Mathematical basis
     * Same mathematical basis as ML
@@ -93,3 +96,12 @@ How does DL learn from data **using neural networks**?
     - Not possible (yet?)
 
 **_Source_** : AWS. 2023. What’s the difference between ML and DL. https://aws.amazon.com/compare/the-difference-between-machine-learning-and-deep-learning/
+
+## Lab3: Sequential Neural Networks
+- Keras sequential 
+    - Brief tutorial: https://www.dataquest.io/blog/tutorial-introduction-to-keras/ 
+- Guided walk-through
+- Get a copy of `lab3` from the GitHub course org by accepting the GitHub classroom invitation
+- Clone `lab3` to your SageMaker CPU instance
+- Create Markdown cells before each code cell detailing what the code is performing
+    - Markdown cells _must_ be **_entirely_** in your own words
