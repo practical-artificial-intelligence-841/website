@@ -1,5 +1,5 @@
 ---
-title: Search Resoures
+title: Search Resources
 weight: 6
 ---
 
@@ -43,6 +43,9 @@ Anthony Rhodes, senior research scientist (https://www.linkedin.com/in/anthonydr
 Mussmann, Steve, and Abi See. n.d. Graph Search Algorithms. https://cs.stanford.edu/people/abisee/gs.pdf. 
 
 Great Learning Team. 2022. Best First Search Algorithm in AI | Concept, Implementation, Advantages, Disadvantages. Great Learning Blog. Great Learning Educational Services Private. Limited. https://www.mygreatlearning.com/blog/best-first-search-bfs/ 
+
+## Search Example
+See [search example](search-example.pdf) and use it to trace **uninformed** and **informed** search algorithms.
 
 ## Local Search
 - Hill climbing 
