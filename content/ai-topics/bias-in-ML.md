@@ -1,6 +1,6 @@
 ---
 title: Bias in Machine Learning
-weight: 5
+weight: 1
 ---
 
 ## Jackie Alcine Story 

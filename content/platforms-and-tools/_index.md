@@ -1,5 +1,5 @@
 ---
-title: Resources and Tools
+title: Platforms and Tools
 weight: 6
 ---
 
