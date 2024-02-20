@@ -34,3 +34,12 @@ Mussmann, Steve, and Abi See. n.d. “Graph Search Algorithms.” n.d. https://c
 Wikipedia. 2022a. “Evolutionary Computation.” In Wikipedia. https://en.wikipedia.org/w/index.php?title=Evolutionary_computation&oldid=1097099489#Notable_practitioners. 
 
 Wikipedia. 2022b. “Machine learning.” In Wikipedia. https://en.wikipedia.org/w/index.php?title=Evolutionary_computation&oldid=1097099489#Notable_practitioners. 
+
+## CP Problems
+
+### Robot Delivery Problem
+
+### Australia Map Coloring Problem
+
+- Nikhil Sharma. 2023. CS 188 Note 4 Constraint Satisfaction, UC Berkely. https://inst.eecs.berkeley.edu/~cs188/fa23/assets/notes/cs188-fa23-note04.pdf. 
+-Pedro Domingoz. 2014. CSE 573 Ch 5 Constraint Satisfacation, Univ. of Washington. https://courses.cs.washington.edu/courses/cse573/14sp/slides/chapter05-6pp.pdf. 

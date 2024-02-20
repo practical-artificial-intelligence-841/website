@@ -10,7 +10,6 @@ University of California Berkeley, CS 188 Intro to AI course had useful slides o
 ## Uninformed Search
 - Depth-first search (DFS) 
 - Breadth-first search (BFS) 
-- Uniform-cost search 
 - Iterative deepening search 
 
 #### References
@@ -27,9 +26,14 @@ Bryan Gibson, Ph.D., principal data scientist https://www.linkedin.com/in/bryanr
 Mussmann, Steve, and Abi See. n.d. Graph Search Algorithms. https://cs.stanford.edu/people/abisee/gs.pdf. 
 
 ## Informed Search
-- Best-first search 
-- Greedy search 
-- A* search
+**frontier** data structure is a priority queue
+- Uniform cost search
+    - Select node **n** with the lowest cost `g(n)`, summ of the costs of the edges in the path from **source** to **n**
+- Best-first search
+    - Greedy search (or best-first search)
+        - Select node **n** with the lowest estimated cost from **n** to the **goal**, `h(n`)
+    - A* search
+        - Select node the lowest-cost node **n** that has the lowest estimated cost from **n** to the **goal**, `f(n) = g(n) + h(n)`
 
 #### References
 Vincent Conitzer and Aditi Raghunathan. 2023. 15-281 Artificial Intelligence: Representation and Problem Solving Course. Carnegie Mellon University, School of Computer Science. 

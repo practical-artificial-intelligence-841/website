@@ -22,9 +22,8 @@ _class:
  - invert
 ---
 
-# Transformer Models
-COMP 741/841 Week 5
-Fall 2023
+# Generative AI: Transformer Models
+COMP 741/841 Week 6
 
 ## Agenda
 
