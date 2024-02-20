@@ -113,8 +113,8 @@ What is the CSP graph of Australia's Mainland states and territories?
     - [CP-SAT](https://developers.google.com/optimization/cp/cp_solver) in `cp_model` module in `ortools.sat` package
     - [Original CP](https://developers.google.com/optimization/cp/original_cp_solver) in `pywrapcp`in `ortools.constraint_solver`
 
-## CP-SAT vs CP
-- CP-SAT is more efficent than CP
+## CP-SAT vs CP-Original
+- CP-SAT is more efficent than CP-Original
     - Navigates efficiently a large search space
     - Solves problems for which we don't have efficient algorithms (that have polynomial time efficiency)
     - Brute-force approaches (trying out ALL value assignment to ALL variables) would take too long to prove usable
