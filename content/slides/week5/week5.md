@@ -121,4 +121,7 @@ What is the CSP graph of Australia's Mainland states and territories?
 - CP-SAT is effective for real-world problems: logistics, routing, scheduling
     - Not so much for pseudo-randomly generated problems or  or cryptographic problems
 
+## Assigned Reading RN4
+
+Freuder, Eugene C. 2021. Ubiquity of Constraints. IJCAI 2020 Research Excellence Award presented at the International Joint Conference on Artificial Intelligence, Japan, January. https://ijcai20.org/excellence-research-award-session/
 
