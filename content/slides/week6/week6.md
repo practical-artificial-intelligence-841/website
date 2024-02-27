@@ -97,7 +97,7 @@ Source: Hugging Face. 2023. Transformers Models: What can they do? https://huggi
 
 
 ## Origin of the Transformer Model
-Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. 2017. Attention is all you need. Proceedings of the 31st Conf. on Neural Information Processing Systems.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. 2017. [Attention is all you need.](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) Proceedings of the 31st Conf. on Neural Information Processing Systems.
 ![](transformers-abstract.png "Abstract of transformers paper")
 
 
