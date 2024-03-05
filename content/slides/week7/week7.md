@@ -28,113 +28,164 @@ COMP 741/841 Week 7​
 Fall 2023​
 
 ## Agenda​
-- Presentations (15 minutes)​
-- Lab 4 feedback (10 minutes)​
-- Remaining course schedule (5 min)​
-- Team projects (5 min)​
-- Lab6 (rest of the class time)​
-- Due next week (5 minutes)​
-
-## Presentations​
-**Assigned Reading​**
-
-- Freuder, Eugene C. 2021. Ubiquity of Constraints. IJCAI 2020 Research Excellence Award presented at the International Joint Conference on Artificial Intelligence, Japan, January. [https://ijcai20.org/excellence-research-award-session/]​(https://ijcai20.org/excellence-research-award-session/)
-
-**Presenters​**
-
-- M1: 
-- M2: 
-- M3: 
-- M4: 
-
-## Lab 4 Feedback and Discussion ​
-- Justification of your answer must include a **correct reference from course materials**: 6sp slides, Hugging Face NLP Tutorial​
-
-- Justification must say **how the selected model(s)** or **selected task(s) relate to** the given scenario​
-
-    - If you start with a general justification, make sure that you say what it means ​in the context of the given scenario​
-
-- If you select both an encoder AND decoder, OR sequence-to-sequence model​
-
-    - Be explicit about **which of the tasks** you are listing **​relate to the encoder** and **which of the tasks relate to the decoder​**
-
-- The **tasks (or models) in your answer** to  the scenario **question​**
-
-    - **must match the tasks (or models)** in  your **justification​**
-
-- Questions?
+- Remaining course schedule
+- Team projects
+- Bias in AI
+- Assigned reading
 
 ## Remaining Course Schedule: 2nd Half
 ![img](course-schedule.png)
 
 ## Team Projects​
-- Teams of two students will be determined by instructors during ​Week 10 (starting Oct 31)​
-
+- Teams of two students will be determined by instructors during ​Week 10 (March 26)​
 - Team members will have comparable levels of preparation in the course as demonstrated by work on labs​
+- Teams will choose from types of projects described by the instructor
+- Project artifacts are 60% of the final grade
+  - Project feedback (10%): proposal, design, presentation
+  - Codebase (10%)​
+  - Final report (25%)​
+  - Final presentation and demo (15%)​
 
-- Teams will choose from types of projects described by the instructors​
+## Is DALL-E Biased? ​
 
-    - Project artifacts are: ​
+**DALL-E 3 prompt**: Images of a watch showing 1 o'clock​
 
-    - Project proposal (5%)​
+**DALL-E 3 output**
+![img](dall-e.png)
 
-    - Design document (5%)​
+**Question**: Why DALL-E generated images show 10:10? ​
 
-    - Codebase (25%)​
+  
+## Is DALL-E Biased? ​
 
-    - Final report (50%)​
+**Answer**​
 
-    - Demo (15%)​
+  The system blindly follows the data.
+  ![img](answer.png)
 
-- Questions?
+*Source*: Gary Marcus. 2023. Race, statistics, and the persistent cognitive limitations of DALL-E. Substack: Marcus on AI.  
+https://garymarcus.substack.com/p/race-statistics-and-the-persistent
 
-## Lab6: Training an Object Detection Model​
-- Object detection will be broken into two labs​
+## Is DALL-E Biased? 
 
-    - Lab6 – training an object detection model​
+- ​Will data points like these might have helped? ​
 
-    - Lab7 – evaluating an object detection model​
+- Or will these data points be considered **statistical noise**? ​
+![img](time.png)
 
-- Link to GitHub classroom will be provided via Discord​
+## Is DALL-E Biased? 
 
-- Read through the entire README.md before beginning​
+Statistical noise definition: ​
 
-    - Storage on SMSL will most likely have to be made available​
+- Unexplained variability within a data sample​
+- Obscures meaningful data​
 
-    - Detectron2 is a slightly complicated install (although worth it!)​
+## Bias Examples: Photography​
+- Photo classifiers and people of color​
+  - Google Photo app, 2015​
+  - Google Photo app, 2023. See Grant and Hill (2023) article in New York Times.​
+- How did it happen? Bias in photography​:
+  - In front of the camera​
+    - Who have been photographed? What photos are widely available?​
+  - Behind the camera​: Kodak's "Shirley Card"​
 
-    - SMSL GPU instance is required to run Detectron2​
+## Bias Examples: Photography​
+How to fix it? ​
+  - Better classifiers depend on more data​
+  - However, more data expose representation relative to what the society has promoted​
 
-        - Lab can be started in CPU if GPU is unavailable​
+**References​**
 
+Grant, Nico and Kashmir Hill. 2023. Google’s Photo App Still Can’t Find Gorillas. And Neither Can Apple’s. The New York Times, 2023, sec. Technology. https://www.nytimes.com/2023/05/22/technology/ai-photo-labels-google-apple.html.​
 
-## Lab6: Training an Object Detection Model​
+​
+Source: Brian Christian. 2020. The Alignment Problem: Machine Learning and Human Values. W. W. Norton and Company.​
 
-- As you work through the notebook, complete the questions in each section​
+## Bias Examples: Facial Image Datasets​
+Labeled Faces in the Wild (LFW) dataset​
+- Assembled in 2007 from online news at UMass Amherst​
+- In 2014: 77% male, 83% white​
 
-    - Record your answers in QUESTIONS.md and commit the file to your GitHub repo​
-
-    - No other commits will be made and/or pushed to the remote​
-
-- QUESTIONS.md will be converted to PDF and submitted to Canvas​
-
-## Due Next Week
-**Lab6:** Complete the lab as instructed in README.md. Submit PDF of QUESTIONS.md to Canvas. ​
-**RN7:** Select EITHER:​
-- Augenstein, Isabelle, Karolina Stańczak, and Kristian Bjorn-Hansen. 2022. Female Politicians Disadvantaged by Online Prejudices and Stereotypes. News: Faculty of Science. University of Copenhagen. October 31, 2022. [https://science.ku.dk/english/press/news/2022/female-politicians-disadvantaged-by-online-prejudices-and-stereotypes/](https://science.ku.dk/english/press/news/2022/female-politicians-disadvantaged-by-online-prejudices-and-stereotypes/)
-
-
-## Due Next Week
-Or select:​
-
-- Gordon, Rachel. 2023. Large Language Models Are Biased. Can Logic Help Save Them? MIT News | Massachusetts Institute of Technology. March 3, 2023. [https://news.mit.edu/2023/large-language-models-are-biased-can-logic-help-save-them-0303](https://news.mit.edu/2023/large-language-models-are-biased-can-logic-help-save-them-0303)
-
-- Marcus, Gary. 2023. Elegant and Powerful New Result That Seriously Undermines Large Language Models. Substack Newsletter. Marcus on AI (blog). September 22, 2023. [https://garymarcus.substack.com/p/elegant-and-powerful-new-result-that?publication_id=888615&utm_medium=email&utm_campaign=email-share&triggerShare=true&r=ue78e](https://news.mit.edu/2023/large-language-models-are-biased-can-logic-help-save-them-0303)
+IJB-A dataset (https://paperswithcode.com/dataset/ijb-a) 
+- Has facial images with wide variation in pose, illumination, resolution, occlusion​
+- 5,612 images, 2,085 videos, 500 identities, 11.4 images and 4.2 videos per identity
 
 
-## Due Next Week
-Presentations​
+## Bias Examples: Facial Image Datasets​
+Joy Buolamwini and Timnit Gebru Analysis, 2017-2018​
+- They analyzed IJB-A dataset
+- Finding: Overrepresentation of light-skin images (80%) and male images (75%)​
+- Finding: Underrepresentation of dark-skinned females (4.4%)​
+- Built a more representative dataset using the "parliament method"​
+  - Select 6 nations' parliaments: 3 from Africa and 3 from Scandinavian countries, to have roughly equal proportions of all six skin-tone categories​
 
-- See **presentation-schedule.docx** in OneDrive for RN7 additional guidelines​
+## Bias Examples: Facial Image Datasets​
+Joy Buolamwini and Timnit Gebru Analysis, 2017-2018​
+- Tested the dataset on 3 other systems from Microsoft, IBM, and Megvii (China)​
+- Finding: Classification by gender: ​
+  - 90% accuracy, ... But 
+  - 10%-20% more accurate for male faces than female faces
+  - 10%-20% more accurate for lighter faces than darker faces​
+- Finding: Intersectionality analysis by gender AND skin color: dramatically worse accuracy​
+  - Both female and dark skin: 35% error rate​
+  - But 0.3% error rate for male light skin​
 
-- Presenters: M1, M4, M3
+*Source*: Brian Christian. 2020. The Alignment Problem: Machine Learning and Human Values. W. W. Norton and Company. ​
+
+## Bias in Psychology, Sociology, Behavioral Economics​
+**Definition**: Judgment) of the characteristics of a person or social group​
+- Based on race, gender, class, language, religion, geography, nationality, education, occupation, disability, political affiliation, social status, music tastes, …
+
+Many names and forms of biases​
+  - **Unconscious** (or implicit) bias: without conscious awareness​
+  - **Stereotype**: associate a person or group with a **consistent** set of traits​
+
+## Bias in Psychology, Sociology, Behavioral Economics​
+**Prejudice** (relates to **categorical thinking**): Tendency to *categorize* people or objects based on prior experience to make predictions about things/people in that category​
+- Usually, prejudice is a negative affect towards members of a group​
+- However, the process of categorization and prediction is necessary for​:
+  - Normal interaction and survival​
+- Examples: know how to conduct with friends vs strangers; find items in a grocery store; ...​
+
+## Bias in Empirical Research​
+Empirical research of a phenomenon means:​ Collect and analyze empirical evidence from quantitative and/or qualitative data​
+- Where does the bias come from? Some examples:​
+- Data sample: **sampling bias**
+  - Data may not be random, or may not give equal chance for each point to belong to the dataset​
+- Participants' self-reports: **self-serving bias​**
+  - In survey studies, participants overemphasize desirable qualities and downplay undesirable qualities​
+
+## Bias in Empirical Research​
+- Researcher's subjectivity: **experimenter expectation bias​**
+  - Researcher may influence participants in interview or focus groups studies​
+*Source*: Jenny Gutbezahl. 2017. 5 Types of statistical bias to avoid in your analyses. Harvard Business School Online. https://online.hbs.edu/blog/post/types-of-statistical-bias​
+
+## Bias in Statistics, ML, Supervised Learning
+Prediction errors on *unseen data* (not used during training):​
+- **Bias** errors: can cause **underfitting​**
+  - Algorithm misses relevant relations between features and target ​
+  - Example: Straight line fit to data that exhibit quadratic behavior overall​
+- **Variance** errors: can cause **overfitting**
+  - Algorithm models the *random noise* in the training data​
+  - Example: Higher-order polynomial fit to data that exhibit quadratic behavior overall
+
+## Bias in Statistics, ML, Supervised Learning
+More graphical example on Wikipedia(2023)
+![img](time-variance.png)
+Source: Wikipedia. 2023. Bias-Variance Tradeoff. Motivation section. https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff​
+
+## How to "Interrupt" Bias?
+Better data, less bias​
+- See Microsoft Research (2023) initiative to formalize and operationalize data documentation
+- Good data documentation practices help developers with exposing:
+    - underlying assumptions​, potential risks​, implications of use​
+- Good data documentation help users of dataset​s with
+    - Makeing decisions​
+    - Understanding limitations​
+
+## How to "Interrupt" Bias?
+Tools
+- Datasheets for data sets https://www.microsoft.com/en-us/research/publication/datasheets-for-datasets/ ​
+- Aether Data Documentation ​https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf ​
+
+*Source*: Microsoft Research. 2023. Data Documentation. https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/​

@@ -162,7 +162,7 @@ Bottom line, **do not cheat, plagiarize, or faciliate academic integrity miscond
 policy](https://catalog.unh.edu/srrr/university-policies-regulations/academic-integrity/).
 
 
-## COURSE REQUIREMENTS AND ASSESSMENT OVERIEW
+## COURSE REQUIREMENTS AND ASSESSMENT OVERVIEW
 
 Student learning is assessed based on evidence produced by the following
 activities. Percentages show how much each activity contributes to the
