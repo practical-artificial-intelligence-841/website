@@ -133,7 +133,7 @@ Joy Buolamwini and Timnit Gebru Analysis, 2017-2018​
 *Source*: Brian Christian. 2020. The Alignment Problem: Machine Learning and Human Values. W. W. Norton and Company. ​
 
 ## Bias in Psychology, Sociology, Behavioral Economics​
-**Definition**: Judgment) of the characteristics of a person or social group​
+**Definition**: Judgment of the characteristics of a person or social group​
 - Based on race, gender, class, language, religion, geography, nationality, education, occupation, disability, political affiliation, social status, music tastes, …
 
 Many names and forms of biases​

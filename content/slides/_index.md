@@ -8,7 +8,7 @@ weight: 2
 - [Week 4](./week4/week4.pdf)
 - [Week 5](./week5/week5.pdf)
 - [Week 6](./week6/week6.pdf)
-- [Week 7](./archive/week0.pdf)
+- [Week 7](./week7/week7.pdf)
 - [Week 8](./archive/week0.pdf)
 - [Week 9](./archive/week0.pdf)
 - [Week 10](./archive/week0.pdf)
