@@ -6,63 +6,33 @@ weight: 1
 ## Jackie Alcine Story 
 
 - 2015, Google Photos image recognition feature: grouping photos with thematic caption 
-
 - Jackie Alcine found that dozens of Alcine’s and his friend’s photos were grouped under “gorillas” 
-
 - Twitter exchanges 
-
     - Alcine’s post: “My friend is not a gorilla. Google Photos y’all f[*] up” 
-
     - Google chief architect, Yonatan Zunger,  replies: “ This is 100% not OK” 
-
 - Google actions 
-
     - Within hours, Google removed the label “gorilla” and redeployed the tool. Still problematics 
-
-    - After 2015, gorilla” was censored from searches and image tags 
-
+    - After 2015, "gorilla" was censored from searches and image tags 
     - In 2018, Google manually deactivates the label, as a result not even gorillas could be labelled gorilla 
-
     - Chimp, chimpanzee, monkey, etc., also blocked 
-
     - In the end, purged from the image classifier algorithm 
-
-- The algorithm was stochastic gradient descent. Reminder: 
-
-    - Go through training at random (stochastic) and 
-
-    - Tune model’s parameters to assign slightly higher probability to the correct category  
-
-    - Repeat as needed 
-
 - The core Idea of supervised learning 
-
     - Can learn ANYTHNIG from examples, including bias 
-
 - Question: how did the bias get there in the first place? 
 
-## Photography and Bias - Frederick Douglas Story 
-
+## Photography and Bias - Frederick Douglass Story 
 - Abolitionist author and lecturer who escaped slavery 
-
 - The most photographed American in the 19th century (more than Lincoln and Ulysses Grant) 
-
-- Douglas’s Letter to Louis Prang June 14th, 1870, in response to the lithographic portrait of the first African American US senator, Hiram Revels: 
-
-    - “Whatever may be the prejudices of those who may look upon it, they will be compelled to admit that the Mississippi senator is a man, and one who will easily pass for a man among men. We colored men so often see ourselves described and painted as monkeys, that we think it a great piece of good fortune to find an exception to this general rule.”  
-
-- In 1923, W.E.B. Du Bois encourage young Black people to consider the photographer career since they will know more about portraying Black people 
+- Douglass’s Letter to Louis Prang June 14th, 1870, in response to the lithographic portrait of the first African American US senator, Hiram Revels: 
+> “Whatever may be the prejudices of those who may look upon it, they will be compelled to admit that the Mississippi senator is a man, and one who will easily pass for a man among men. We colored men so often see ourselves described and painted as monkeys, that we think it a great piece of good fortune to find an exception to this general rule.”  
+- In 1923, W.E.B. Du Bois encouraged young Black people to consider the photographer career since they will know more about portraying Black people. 
 
 ## Kodak’s “Shirley Card” Story 
 - Lack of racial diversity in film or TV has been not only **in front of the camera**, or **behind the camera**, but also **inside the camera** 
-
 - There have been skin-tone biases within the visual reproduction technology itself 
-
-- Chemical processing of film was tuned to a test picture  of a White woman for color-balanced benchmark, called “Shirley card” 
-
+- Chemical processing of film was tuned to a test picture  of a White woman for color-balanced benchmark, called "Shirley card" 
 - Thus, cameras weren’t taking good photos of Black people, since they were calibrated to white skin 
-
-- In 1960s and 70s Kodak creates film sensitive to darker tones not because of correcting photos of Black people, but because of the furniture and chocolate industries and their demand for better advertisement photos 
+- In 1960s and 1970s Kodak creates film sensitive to darker tones not because of correcting photos of Black people, but because of the furniture and chocolate industries and their demand for better advertisement photos 
 
 Morale: Better classifiers depend on more data (less data make worse predictions). And more data expose representation relative to the general population that the societal structures have promoted 
 
@@ -71,17 +41,11 @@ Morale: Better classifiers depend on more data (less data make worse predictions
 ## Gender Shades 
 
 - 2010, Georgia Tech, Joy Buolamwini is an undergraduate student, using an off-the-shelf face recognition library to program a robot to play peekaboo and recognize the programmer’s face 
-
 - The culprit is not the algorithm but the dataset of images on which the off-the-shelf model was pretrained.  
-
 - 2007, Labeled Faces in the Wild (LFW) dataset was assembled from online news at UMass Amherst (Huang et al.) 
-
 - 2014 LWF was analyzed: 77% male, 83% White. In 2019, LWF offered a disclaimer.  
-
 - 2015, IJB-A dataset (IARPA Janus Benchmark A) 
-
     - See description at https://paperswithcode.com/dataset/ijb-a: has facial images with a wide variations in pose, illumination, expression, resolution and occlusion.  
-
     - 5,712 images and 2,085 videos from 500 identities, with an average of 11.4 images and 4.2 videos per identity 
 
 ## Buolamwini and Gebru Work 2017 - 2018
@@ -114,7 +78,7 @@ Morale: Better classifiers depend on more data (less data make worse predictions
             - but 0.3% error rate for male light skin 
 
 ## Combating Bias and Activism 
-- See Joy Buolamwini’s “AI, Ain’t I a Woman”, paraphrasing the abolitionist and women’s right activity Sojourner Truth.  
+- See Joy Buolamwini’s "AI, Ain’t I a Woman", paraphrasing the abolitionist and women’s right activity Sojourner Truth.  
 
 - One of the 1st articles on bias in computing: Batya Friedman and Helen Nissenbau, 1996 
 
