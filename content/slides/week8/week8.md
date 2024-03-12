@@ -49,4 +49,13 @@ To learn more about see applying CP-SAT to implement optimization problem soluti
 See Reinforcement Learning Notes in Canvas.
 
 ## Getting Started in Lab 6
-See Colab link in Canvas
+See Lab 6 in Canvas
+
+## Lab 6 Resources
+1. Ngo, Tracey. 2003. “Can Machine Learning Solve a Maze? | Science Project.” Science Buddies. Accessed March 12, 2024. https://www.sciencebuddies.org/science-fair-projects/project-ideas/ArtificialIntelligence_p008/artificial-intelligence/machine-learning-maze.
+
+2. Singh, Anubhav. 2024. “Introduction to Reinforcement Learning.” Accessed March 12, 2024. https://www.datacamp.com/tutorial/introduction-reinforcement-learning.
+
+3. Awan, Abid Ali. 2022. “An Introduction to Q-Learning: A Tutorial For Beginners.” 2022. https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial.
+
+
