@@ -25,7 +25,7 @@ _class:
 ### Object Detection​
 
 COMP 741/841 Week 7​
-Fall 2023​
+Spring 2024
 
 ## Agenda​
 - Remaining course schedule

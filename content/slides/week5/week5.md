@@ -25,6 +25,8 @@ _class:
 # Symbolic AI: Constraint Satisfaction
 COMP 741/841 Week 5
 
+Spring 2024
+
 ## Agenda
 - Constraint Satisfaction
 - Getting started on Lab 4

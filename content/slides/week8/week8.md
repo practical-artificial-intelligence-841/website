@@ -25,7 +25,7 @@ _class:
 ## Neural AI: Reinforcement Learning
 COMP 741/841 Week 8​
 
-Fall 2024
+Spring 2024
 
 ## Agenda
 - Lab 4 feedback
@@ -52,10 +52,10 @@ See Reinforcement Learning Notes in Canvas.
 See Lab 6 in Canvas
 
 ## Lab 6 Resources
-1. Ngo, Tracey. 2003. “Can Machine Learning Solve a Maze? | Science Project.” Science Buddies. Accessed March 12, 2024. https://www.sciencebuddies.org/science-fair-projects/project-ideas/ArtificialIntelligence_p008/artificial-intelligence/machine-learning-maze.
+1. Ngo, Tracey. 2023. Can Machine Learning Solve a Maze? Science Buddies. https://www.sciencebuddies.org/science-fair-projects/project-ideas/ArtificialIntelligence_p008/artificial-intelligence/machine-learning-maze
 
-2. Singh, Anubhav. 2024. “Introduction to Reinforcement Learning.” Accessed March 12, 2024. https://www.datacamp.com/tutorial/introduction-reinforcement-learning.
+2. Singh, Anubhav. 2024. Introduction to Reinforcement Learning. https://www.datacamp.com/tutorial/introduction-reinforcement-learning
 
-3. Awan, Abid Ali. 2022. “An Introduction to Q-Learning: A Tutorial For Beginners.” 2022. https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial.
+3. Awan, Abid Ali. 2022. An Introduction to Q-Learning: A Tutorial For Beginners. https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial
 
-
+4. ADL. 2018. An Introduction to Q-Learning: Reinforcement Learning. freeCodeCamp.Org. https://www.freecodecamp.org/news/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc/
