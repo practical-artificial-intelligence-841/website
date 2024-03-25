@@ -22,9 +22,9 @@ _class:
  - invert
 ---
 
-## Neural AI: Reinforcement Learning
-COMP 741/841 Week 8​
-
+# Neural AI: Reinforcement Learning
+## Deep Q-Learning 
+### COMP 741/841 Week 8​
 Spring 2024
 
 ## Agenda

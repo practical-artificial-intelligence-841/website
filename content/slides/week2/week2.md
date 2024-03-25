@@ -21,9 +21,9 @@ _class:
  - invert
 ---
 
-# First Exposure to Neural AI
-COMP 741/841 Week 2​
-
+# AI Paridigm: Neural AI
+## Image classification: MNIST dataset
+### COMP 741/841 Week 2​
 Spring 2024
 
 ## Agenda​
