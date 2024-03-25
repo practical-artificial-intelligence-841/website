@@ -74,4 +74,28 @@ New Q value uses Bellman equation, which depends on:
 
 *Problem*: Train the robot to reach the end goal with the shortest path without stepping on a mine
 
-![img](robot-miniing-grid.jpg)
+![img](robot-mining-maze.png)
+
+## Q-Table Example
+- 4 actions: up, right, down, left
+- 5 possible states: start, end, power, mine, nothing/blank
+- Q-table score: maximum expected future reward the robot gets IF it takes the action at the state
+![img](q-table-empty.png)
+
+## Reward (scoring) points
+- Lose 1 point at each step to reward the shortest path and reaching the goal as fast as possible
+- Lose 100 points if the robot steps on a mine
+- Gain 1 point if the robot steps on power
+- Gain 100 points if the robot reaches the End goal.
+
+## Q-Function
+- Belman equation
+![img](q-function-formula.png)
+- Q-value calculation
+![img](q-function-update.png)
+
+## New Q-value Calculation
+![img](new-q-value.png)
+
+
+
