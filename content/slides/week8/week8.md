@@ -58,4 +58,4 @@ See Lab 6 in Canvas
 
 3. Awan, Abid Ali. 2022. An Introduction to Q-Learning: A Tutorial For Beginners. https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial
 
-4. ADL. 2018. An Introduction to Q-Learning: Reinforcement Learning. freeCodeCamp.Org. https://www.freecodecamp.org/news/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc/
+4. Lamba, Akshay. 2018. An Introduction to Q-Learning: Reinforcement Learning. freeCodeCamp.org. https://www.freecodecamp.org/news/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc/
