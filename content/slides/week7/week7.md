@@ -22,9 +22,8 @@ _class:
 ---
 
 # Bias in AI
-## Team projects
-### COMP 741/841 Week 7​
-Spring 2024
+### Team projects
+COMP 741/841 Week 7​ - Spring 2024
 
 ## Agenda​
 - Remaining course schedule

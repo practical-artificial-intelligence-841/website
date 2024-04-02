@@ -12,15 +12,15 @@ The **project proposal** addresses the following aspects of the team project:
 
 2. What **AI system** has the team selected from publicly available sources to exemplify the type of system under investigation? 
 
-3. What **content knowledge** (theories and concepts) are needed to understand what the AI system does and how it works? 
+3. What **content knowledge** (theories and concepts) are needed to *understand* what the AI system does and how it works? 
 
-4. What **tools, platforms, APIs, libraries, and data sets** are needed to develop the AI system?  
+4. What **practical knowledge: tools, platforms, APIs, libraries, and data sets** are needed to *develop* the AI system?  
 
-5. What are the **ethical considerations** for: 
-
-    a. determining the legitimate use of the AI system and for 
-
-    b. developing a safe and trustworthy AI system?  
+5. What **risks** might be posed by the AI system development and use? How are the risks mitigated? Consider the following issues:
+    1. Safety and security
+    2. Protection of data privacy
+    3. Protextion against algorithmi discrimination
+    4. Transparency and explanation
 
 6. **References:** What trustworthy and publicly available materials and resources inform and guide the project work of the team? 
 
@@ -28,23 +28,27 @@ The **project proposal** addresses the following aspects of the team project:
 ## Team Contributions
 Team members collaborate to: 
 
-- Select an **AI system example** from publicly available sources to answer question #2 
+- Explore and select an **AI system example** of the assigned **AI system type** using trustworthy and publicly available materials and resources (to address #1 and #2 above)
 
-- Assemble relevant **references** from the assigned readings, other references made available in the course notes, Wikipedia, and other sources of adequate. These references are collected in the team project Zotero library and listed in section 6 of the proposal.  
+- Assemble relevant **references** from the assigned readings, other references made available in the course notes, Wikipedia, and other adequate sources (to address #6 above)
+    - Set up a team project Zotero libray
+    - Add the references to the team project Zotero library
+    - List the references in Section 6 of the proposal.  
 
 ## Individual Contributions
 Team members decide to equitably divide the task of writing sections 3, 4, and 5.  
 
 - Determine the team member who's the lead author and the team member who's the reviewer for the following questions: 
 
-    - Member 1: Questions 3 and 5a 
+    - Member 1: Questions 3 and 5.1 and 5.2
 
-    - Member 2: Questions 4 and 5b 
+    - Member 2: Questions 4 and 5.3 and 5.4
 
-- Include the **names** and **roles** along with the text of the question in the proposal
+- Include the **names** and **roles** along with the text of the question in the proposal.
 
 ## Development
-The project proposal can be developed through direct, real-time collaboration between team members. 
+The project proposal can be developed through direct, real-time collaboration between team members.  
+
 
 - On the **main** branch, create **docs** directory. In this folder, create **PROPOSAL.md** . 
 

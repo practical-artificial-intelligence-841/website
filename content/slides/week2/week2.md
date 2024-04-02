@@ -22,9 +22,8 @@ _class:
 ---
 
 # AI Paridigm: Neural AI
-## Image classification: MNIST dataset
-### COMP 741/841 Week 2​
-Spring 2024
+### Image classification: MNIST dataset
+COMP 741/841 Week 2​ - Spring 2024
 
 ## Agenda​
 - Reading assignment: Gains and perils of neural networks

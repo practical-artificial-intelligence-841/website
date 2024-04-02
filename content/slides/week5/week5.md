@@ -23,9 +23,8 @@ _class:
 ---
 
 # Symbolic AI: Constraint Satisfaction
-## Google OR Tools: CP-SAT
-### COMP 741/841 Week 5
-Spring 2024
+### Google OR Tools: CP-SAT
+COMP 741/841 Week 5 - pring 2024
 
 ## Agenda
 - Constraint Satisfaction

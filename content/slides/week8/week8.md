@@ -23,9 +23,8 @@ _class:
 ---
 
 # Neural AI: Reinforcement Learning
-## Deep Q-Learning 
-### COMP 741/841 Week 8​
-Spring 2024
+### Deep Q-Learning 
+COMP 741/841 Week 8​ - Spring 2024
 
 ## Agenda
 - Lab 4 feedback
