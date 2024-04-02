@@ -31,6 +31,7 @@ COMP 741/841 - Week 10
 - Student teams
 - Project development timeline
 - Project proposal guidelines
+- Git feature-branch workflow
 
 ## AI Risks and Risk Mitigation Measures
 References

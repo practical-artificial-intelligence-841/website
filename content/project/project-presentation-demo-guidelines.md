@@ -1,6 +1,6 @@
 ---
 title: Project Presentationa and Demo Guidelines
-weight: 4
+weight: 5
 ---
 
 ## Evaluation Criteria 

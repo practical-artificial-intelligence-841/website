@@ -1,6 +1,6 @@
 ---
 title: Project Codebase Guidelines
-weight: 3
+weight: 4
 ---
 
 ## Getting Started

@@ -19,7 +19,7 @@ The **project proposal** addresses the following aspects of the team project:
 5. What **risks** might be posed by the AI system development and use? How are the risks mitigated? Consider the following issues:
     1. Safety and security
     2. Protection of data privacy
-    3. Protextion against algorithmi discrimination
+    3. Protection against algorithmic discrimination
     4. Transparency and explanation
 
 6. **References:** What trustworthy and publicly available materials and resources inform and guide the project work of the team? 

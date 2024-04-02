@@ -1,6 +1,6 @@
 ---
 title: Project Design Guidelines
-weight: 2
+weight: 3
 ---
 
 ## Content and Organization
