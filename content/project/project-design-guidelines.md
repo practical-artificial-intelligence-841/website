@@ -11,9 +11,7 @@ The AI system overview addresses these three questions:
 
 1. What **type of AI system** does your team investigate? 
 
-    a. Identify one of the seven project types outlined in the Appendix of this handout. 
-
-    b. Briefly summarize what the project type (not your particular AI system) is about.  
+    - Briefly summarize what the project type (not your particular AI system) is about.  
 
 2. What **AI system** has the team selected from publicly available sources to exemplify the type of project under investigation?  
 
@@ -60,8 +58,15 @@ Properly cite ALL the sources from which you use content in writing this section
 - Apply each objective of the project type to your AI system development and evaluation 
 
 - Describe each objective in the **very specific terms of your AI system** development and evaluation.  
+    - The focus of this description is on **practical knowledge**: tools, platforms, APIs, libraries, and data sets needed to develop and evaluation of the AI system. 
 
-### 4. Project Milestones and Deliverables
+### 4. Risks Exploration
+- What **risks** might be posed by the AI system development, evalaution, and use? 
+- Describe potential risks guided by the following resources:
+    - The Communications of the ACM article by Esther Shein on Governments Setting Limits on AI. 
+    - [Microsoft Aether Data Documentation template](https://www.microsoft.com/en-us/research/uploads/prod/2022/07/aether-datadoc-082522.pdf)
+
+### 5. Project Milestones and Deliverables
 Including this week, the team has 5 weeks to complete the codebase and project report (due **December 18, midnight**).  
 
 - Create five subsections corresponding to the five weeks of the project.  
@@ -78,7 +83,7 @@ Properly cite ALL the sources from which you use content in writing this section
 
 - See the References section for more information. 
 
-### 5. References
+### 6. References
 All the sources selected for the project study must be: 
 
 - Included in the team's Zotero group library 
@@ -111,15 +116,15 @@ Failing to provide clear attribution to the writing assignments results in **no 
 
 - Use ### (level 3) Markdown for the title and normal text for authors and date. 
 
-- Structure the design document in 5 sections as described above.  
+- Structure the design document in 6 sections as described above.  
 
 - Use #### (level 4) Markdown for the section headings.  
 
 - In general, use paragraph style in writing the design sections 1, 2, 3, and 4. 
 
-- Include bulleted lists inside paragraphs when appropriate.  
+- Include bulleted lists ONLY inside paragraphs when appropriate.  
 
-- The length of the design in PDF form is 2-4 pages. 
+- The length of the design in PDF form is 3-4 pages. 
 
 Failing to meet the organization and formatting requirements results in **no credit** for the submission. 
 
@@ -132,7 +137,7 @@ Failing to meet the submission deadline results in **no credit** for the design 
 Time extensions are not considered if requested after the deadline. Make plans to commit DESIGN.md changes often and have PDF versions of the drafts of DESIGN.md uploaded to Canvas as early as Monday noon time.
 
 ## Project Types
-### Neural network classifier
+### Neural network classification/regression
 - Find a clean classic dataset (from the TensorFlow dataset https://www.tensorflow.org/datasets  or Sklearn toy datasets https://scikit-learn.org/stable/datasets/toy_dataset.html) 
 
 - Load the data presplit for test 
