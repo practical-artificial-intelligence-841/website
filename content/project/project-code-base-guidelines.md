@@ -51,7 +51,14 @@ weight: 4
             - **git push origin main** 
 
     - Team member 1 
-        - **git pull origin main** 
+        - **git pull origin main**
+
+#### GitHub Project Board Setup
+- On the project repository homepage, locate and click on the **Projects** tab in the navbar
+- Click on the **New project** button and choose the template provided by the faculty for your project
+- Fill in the project name and click on the **Create project** button to finalize the setup
+
+*If you encounter difficulties while setting up the codebase structure, reach out to the Classroom Assistants.*
 
 ## Codebase Development
 - Use GitHub project tool (both table and board view) to document project management work 
