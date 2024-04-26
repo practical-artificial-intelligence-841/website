@@ -23,7 +23,8 @@ _class:
 ---
 
 # Neural AI: Machine Learning and Deep Learning
-COMP 741/841 Week 4​
+### Image classification: Iris dataset
+COMP 741/841 Week 4​ - Spring 2024
 
 
 ## Agenda

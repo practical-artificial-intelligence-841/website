@@ -21,11 +21,9 @@ _class:
  - invert
 ---
 
-# Neural AI: Supervised Learning​
-### Object Detection​
-
-COMP 741/841 Week 7​
-Fall 2023​
+# Bias in AI
+### Team projects
+COMP 741/841 Week 7​ - Spring 2024
 
 ## Agenda​
 - Remaining course schedule

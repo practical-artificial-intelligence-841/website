@@ -23,7 +23,8 @@ _class:
 ---
 
 # Generative AI: Transformer Models
-COMP 741/841 Week 6
+##$ Hugging Face NLP `pipeline()` abstraction
+COMP 741/841 Week 6 - Spring 2024
 
 ## Agenda
 

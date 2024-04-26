@@ -22,7 +22,9 @@ _class:
 ---
 
 # AI Paradigm: Symbolic AI
-COMP 741/841 Week 3​
+## A* Search
+### COMP 741/841 Week 3​
+Spring 2024
 
 ## Agenda​
 - Symbolic AI and A* search

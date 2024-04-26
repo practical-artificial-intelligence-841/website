@@ -1,6 +1,6 @@
 ---
 title: Git Feature Branch Workflow
-weight: 6
+weight: 7
 ---
 
 ## References
@@ -17,42 +17,39 @@ Atlassian Tutorials. 2023. Git Feature Branch Workflow. https://www.atlassian.co
 
 - Feature **branches** (NOT **main** branch) are pushed to the remote repository in order to be shared with the other developers without touching the official code.  
 
-    - Use **push** command with EXPLICIT arguments, e.g.,  
-
-        - **push origin mihaela-read-data**  
+- Use `push` command with EXPLICIT arguments, e.g.,  
+    > `push origin mihaela-read-data` 
 
 ## Workflow Steps
 
 #### Locally, on your machine
 1. Switch to **main** branch, copy what has been added to the main branch from other branches, and reset local copy of **main** to match the latest remote main copy 
 
-    - **git checkout main**	<-- Active branch becomes **main** 
+    - `git checkout main`	<-- Active branch becomes **main** 
 
-    - **git fetch origin**	<-- Copy to the local remote **all new changes** from the remote **origin** 
-
-    - **git reset --hard origin/main**	<-- local main is reset to its latest commit on origin 
+    - `git pull origin main` <-- Synchronize the local `main` with the remote `main`
  
 
 2. Create the **new branch** based on the updated local main 
 
-    - **git checkout –b mihaela-1-feature-x main** 
+    - `git checkout –b mihaela-1-feature-x main`
 
         - Be explicit about **main** being the branch off which you create your new branch.  
 
-    - **git branch -a**    <-- list all branches 
+    - `git branch -a`    <-- list all branches 
 
 3. Develop code on the new branch by editing files, “staging” them (**add** to prepare them for **commit**), and committing changes 
 
-    - **git status** 
+    - `git status`
 
-    - **git add <some files>** 
+    - `git add <some files>`
 
-    - **git commit –m ‘... meaningful message... ‘** 
+    - `git commit –m ‘... meaningful message... ‘` 
 
  
 4. Push **feature branch** to the remote  
 
-    - **git push origin mihaela-1-feature-x**
+    - `git push origin mihaela-1-feature-x`
 
 #### Remotely, on Github
 5. Get feedback on the new feature branch 
