@@ -34,9 +34,9 @@ weight: 3
 ## Codebase Structure Setup
 - The **project** root directory has: 
 
-    - **src** directory, where the source code files reside.  
+    - **src** directory, where the source code files and configuration file (**.yml** or **.txt**) reside.  
 
-    - **README.md, HOWTO.md, and CHANGELOG.md** required files. 
+    - **README.md, HOWTO.md, and CHANGELOG.md** required documentation files. 
 
 - Other directories in the root directory include: 
 
@@ -46,9 +46,10 @@ weight: 3
 
         - Find good names for the subdirectories  
 
-    - **docs** - has PROPOSAL.md, DESIGN.md, REPORT.md, project presentation, and other documentation files 
+    - **docs** - has PROPOSAL.md, DESIGN.md, REPORT.md, project presentation files (of first and second presentations), and other documentation files 
+        - **Note**: *As Git does not directly support PowerPoint (.ppt) files, upload the files to GitHub through the repository homepage*
 
-    - **data**  
+    - **data** - holds dataset files (if applicable) and a README.md.
 
 - There might be other directories, depending on the project. 
 
