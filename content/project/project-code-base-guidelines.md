@@ -25,21 +25,20 @@ weight: 4
 
 ## Codebase Structure Setup
 - The **project** root directory has: 
-
-    - **src** directory, where the source code files and configuration file (**.yml** or **.txt**) reside.  
-
-    - **README.md, HOWTO.md, and CHANGELOG.md** required documentation files. 
+    - **src** directory, where the source code files and configuration file (**.yml or **.txt) reside.  
+    - **README.md**: describes what the project is about: objectives, approach, and results
+    - **HOWTO.md**: describes how to run codebase and how to obtain the evaluation results. 
 
 - Other directories in the root directory include: 
     - **resources**- has the codebase from other projects that are the basis of the team project 
         - Can be organized in subdirectories if multiple sources are used. 
         - Find good names for the subdirectories  
-
-    - **docs** - has PROPOSAL.md, DESIGN.md, REPORT.md, project presentation files (of first and second presentations), and other documentation files 
-        - **Note**: *As Git does not directly support PowerPoint (.ppt) files, upload the files to GitHub through the repository homepage*
-
-    - **data** - holds dataset files (if applicable) and a README.md.
-
+    - **docs** - has PROPOSAL.md, DESIGN.md, REPORT.md, two project presentations, and other documentation files 
+    - **data** - has evaluation data files. 
+        - For DL projects, include training, testing, and validation data set. 
+        If there are large datasets, look into `git lfs` (see https://git-lfs.com), 
+        an extension of `git` that allows you to store large files outside your 
+        local and remote repository. 
 - There might be other directories, depending on the project. 
 - Team members switch roles to create a minimal codebase structure 
     - Team member 2 
@@ -49,7 +48,6 @@ weight: 4
             - git add . 
             - git commit -m 'create initial project structure' 
             - **git push origin main** 
-
     - Team member 1 
         - **git pull origin main**
 
