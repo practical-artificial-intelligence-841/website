@@ -1,6 +1,6 @@
 ---
 title: AI Topics
-weight: 1
+weight: 2
 ---
 
 {{% children depth="4" %}}
