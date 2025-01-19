@@ -1,6 +1,6 @@
 ---
 title: Project
-weight: 6
+weight: 4
 ---
 
 {{% children depth="4" %}}
