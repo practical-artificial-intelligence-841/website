@@ -1,6 +1,6 @@
 ---
 title: Platforms and Tools
-weight: 5
+weight: 3
 ---
 
 {{% children depth="4" %}}
